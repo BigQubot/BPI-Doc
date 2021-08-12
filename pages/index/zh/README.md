@@ -9,9 +9,12 @@ id: doc_home
 # BPI Steam - 资料和文档
 
 <div class="banner">
-            <img class="banner__pics banner__pics1" src="/static/image/WebAI.png"/>
-            <img class="banner__pics banner__pics2" src="/static/image/QCar.png"/>
-            <img class="banner__pics banner__pics3" src="/static/image/TriodeCar.png"/>
+            <img class="banner__pics banner__pics1" src="/static/image/BPI-BIT.jpg"/>
+            <img class="banner__pics banner__pics2" src="/static/image/BPI-AI.jpg"/>
+            <img class="banner__pics banner__pics3" src="/static/image/BPI-NANO.jpg"/>
+            <img class="banner__pics banner__pics4" src="/static/image/BPI-Smart.jpg"/>
+            <img class="banner__pics banner__pics4" src="/static/image/BPI-UNO.jpg"/>
+            <img class="banner__pics banner__pics4" src="/static/image/BPI-UNO32.jpg"/>
         </div>
 
 
