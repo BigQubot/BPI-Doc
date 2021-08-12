@@ -10195,4 +10195,11 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+.img-responsive{
+	display:block;
+	max-width:100%;
+	height:auto;
+	text-align:center;
+}
 /*# sourceMappingURL=bootstrap.css.map */
