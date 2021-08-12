@@ -9,9 +9,9 @@ id: doc_home
 # BPI Steam - 资料和文档
 
 <div class="banner">
-            <img class="banner__pics banner__pics1" src="img/hedy/banner1.png"/>
-            <img class="banner__pics banner__pics2" src="img/hedy/banner2.png"/>
-            <img class="banner__pics banner__pics3" src="img/hedy/banner3.png"/>
+            <img class="banner__pics banner__pics1" src="/static/image/WebAI.png"/>
+            <img class="banner__pics banner__pics2" src="/static/image/QCar.png"/>
+            <img class="banner__pics banner__pics3" src="/static/image/TriodeCar.png"/>
         </div>
 
 
