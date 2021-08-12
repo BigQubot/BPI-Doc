@@ -2,10 +2,10 @@
     "site_name": "BPI-Steam",
     "site_slogon": "BananaPi Steam Education Team",
     "site_root_url": "/",
-    "site_domain": "bpi-steam.com",
+    "site_domain": "test.bpi-steam.com",
     "site_protocol": "https",
     "config_template_dir": "config",
-    "source": "https://github.com/BPI-STEAM/BPI-Doc/blob/main",
+    "source": "https://github.com/BigQubot/BPI-Doc/blob/main",
     "route": {
         "docs": {
             "/Q-Car/zh/": "docs/Q-Car/zh",
