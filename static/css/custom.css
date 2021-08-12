@@ -342,6 +342,7 @@
     display: block !important;
   }
 
+<<<<<<< HEAD
   .form-control {
     display: block;
     width: 100%;
@@ -762,3 +763,15 @@
     display: block !important;
   }
 >>>>>>> parent of 05ef863 (a)
+=======
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+>>>>>>> parent of 03ba62a (a)
