@@ -8,16 +8,31 @@ id: doc_home
 
 # BPI Steam - 资料和文档
 
-<div class="banner">
-            <img src="/static/image/BPI-BIT.jpg" alt="这是一个图片" />
-            <img src="/static/image/BPI-AI.pngg" alt="这是一个图片" />
-            <img src="/static/image/BPI-NANO.png" alt="这是一个图片" />
-            <img src="/static/image/BPI-Smart.png" alt="这是一个图片" />
-            <div class="pointerDiv">
-                <a href="#"></a>
-                <a class="active" href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
-        </div>
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/image/BPI-BIT.jpg" class="d-block w-100" alt="BPI-M4">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/image/BPI-AI.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/image/BPI-NANO.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">上一个</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only" style="color:blue">下一个</span>
+    </a>
+  </div>
+</div>
