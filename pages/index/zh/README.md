@@ -8,7 +8,10 @@ id: doc_home
 
 # BPI Steam - 资料和文档
 
-[![](/static/image/WebAI.png)](/WebAI/zh/readme.md) [![](/static/image/WebBit.png)](/WebBit_doc/zh/readme.md)
-[![](/static/image/QCar.png)](/QCar/zh/readme.md) [![](/static/image/TriodeCar.png)](/TriodeCar/zh/readme.md)
+<div class="banner">
+            <img class="banner__pics banner__pics1" src="img/hedy/banner1.png"/>
+            <img class="banner__pics banner__pics2" src="img/hedy/banner2.png"/>
+            <img class="banner__pics banner__pics3" src="img/hedy/banner3.png"/>
+        </div>
 
 
