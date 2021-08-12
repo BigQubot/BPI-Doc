@@ -42,17 +42,64 @@
 
 
 
-body {
-    overflow-x: hidden;
+body{
+    background: url(../img/bd-bg.png) repeat-x;
 }
-.banner {
-    width: 1210px;
-    margin: 0 auto;
+.w{
+    width: 940px;
+    margin: 0px auto;
 }
-.banner img {
-    width: 1920px;
-    margin: 0 -355px;
-    vertical-align: middle;
+.header{
+    padding-top: 37px;
+    padding-bottom: 46px;
+    /*background: #bfa;*/
+}
+.logo{
+    margin-left: 15px;
+}
+.nav{
+    float: right;
+    margin-top: 22px;
+}
+.nav li{
+    float: left;
+    padding: 0px 10px 8px;
+    border-left: 1px #D6D6D6 dotted;
+}
+.nav a{
+    color: #666;
+    font: bold 14px georgia;
+    text-decoration: none;
+}
+.nav p{
+    color: #B7B7B7;
+    font: 11px tahoma;
+}
+.nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.banner{
+    height: 356px;
+    background: url(../img/banner-bg.png) no-repeat bottom center;
+    position: relative;
+}
+.pointerDiv{
+    position: absolute;
+    top: 314px;
+    left: 15px;
+}
+.pointerDiv a{
+    width: 17px;
+    height: 17px;
+    float: left;
+    background: url(../img/pointer.png) no-repeat;
+}
+.pointerDiv .active,
+.pointerDiv a:hover
+{
+    background: url(../img/pointer-active.png) no-repeat;
+    
 }
 
 

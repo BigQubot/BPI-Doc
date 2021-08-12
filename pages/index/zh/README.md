@@ -9,10 +9,15 @@ id: doc_home
 # BPI Steam - 资料和文档
 
 <div class="banner">
-    ![](/static/image/BPI-BIT.jpg)
-    ![](/static/image/BPI-AI.png)
-    ![](/static/image/BPI-NANO.png)
-    ![](/static/image/BPI-Smart.png)
-    ![](/static/image/BPI-UNO.png)
-    ![](/static/image/BPI-UNO32.png)
-</div>
+            <img src="/static/image/BPI-BIT.jpg" alt="这是一个图片" />
+            <img src="/static/image/BPI-AI.pngg" alt="这是一个图片" />
+            <img src="/static/image/BPI-NANO.png" alt="这是一个图片" />
+            <img src="/static/image/BPI-Smart.png" alt="这是一个图片" />
+            <div class="pointerDiv">
+                <a href="#"></a>
+                <a class="active" href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
