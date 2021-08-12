@@ -12,10 +12,10 @@ id: doc_home
 <div class="div_banner" onmouseover="bannerOver()" onmouseout="bannerOut()"> 
     <button class="btn_shift" name="btn_shift" onclick="clickPrev()">&lt;</button> 
         <img class="img_banner" id="banner" src="/static/image/BPI-BIT.jpg" width="1000" height="600" /> 
-        <img class="img_banner" id="banner" src="/static/image/BPI-AI.jpg" width="1000" height="600" /> 
-        <img class="img_banner" id="banner" src="/static/image/BPI-NANO.jpg" width="1000" height="600" /> 
-        <img class="img_banner" id="banner" src="/static/image/BPI-Smart.jpg" width="1000" height="600" /> 
-        <img class="img_banner" id="banner" src="/static/image/BPI-UNO.jpg" width="1000" height="600" /> 
-        <img class="img_banner" id="banner" src="/static/image/BPI-UNO32.jpg" width="1000" height="600" /> 
+        <img class="img_banner" id="banner" src="/static/image/BPI-AI.png" width="1000" height="600" /> 
+        <img class="img_banner" id="banner" src="/static/image/BPI-NANO.png" width="1000" height="600" /> 
+        <img class="img_banner" id="banner" src="/static/image/BPI-Smart.png" width="1000" height="600" /> 
+        <img class="img_banner" id="banner" src="/static/image/BPI-UNO.png" width="1000" height="600" /> 
+        <img class="img_banner" id="banner" src="/static/image/BPI-UNO32.png" width="1000" height="600" /> 
     <button class="btn_shift" name="btn_shift" onclick="clickNext()">&gt;</button> 
 </div>
