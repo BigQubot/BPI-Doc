@@ -20,22 +20,22 @@ id: doc_home
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/static/image/BPI-BIT.jpg" class="d-block w-100" alt="BPI-M4">
+        <img src="/static/image/BPI-BIT.jpg" class="d-block w-100" alt="BPI-BIT">
       </div>
       <div class="carousel-item">
-        <img src="/static/image/BPI-AI.png" class="d-block w-100" alt="...">
+        <img src="/static/image/BPI-AI.png" class="d-block w-100" alt="BPI-AI">
       </div>
       <div class="carousel-item">
-        <img src="/static/image/BPI-NANO.png" class="d-block w-100" alt="...">
+        <img src="/static/image/BPI-NANO.png" class="d-block w-100" alt="BPI-NAN">
       </div>
       <div class="carousel-item">
-        <img src="/static/image/BPI-Smart.png" class="d-block w-100" alt="...">
+        <img src="/static/image/BPI-Smart.png" class="d-block w-100" alt="BPI-Smart">
       </div>
       <div class="carousel-item">
-        <img src="/static/image/BPI-UNO.png" class="d-block w-100" alt="...">
+        <img src="/static/image/BPI-UNO.png" class="d-block w-100" alt="BPI-UNO">
       </div>
       <div class="carousel-item">
-        <img src="/static/image/BPI-UNO32.png" class="d-block w-100" alt="...">
+        <img src="/static/image/BPI-UNO32.png" class="d-block w-100" alt="BPI-UNO32">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
