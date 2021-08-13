@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://test.bpi-steam.com/sitemap.xml

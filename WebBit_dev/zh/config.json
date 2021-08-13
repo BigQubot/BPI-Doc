@@ -1,0 +1,29 @@
+{
+    "import": "config_zh",
+    "navbar": {
+        "items": [
+            {
+                "id": "language",
+                "label": "language: ",
+                "position": "right",
+                "items": [
+                    {
+                        "id": "zh",
+                        "url": "/WebBit_dev/zh/",
+                        "label": "简体中文"
+                    },
+                    {
+                        "id": "zh-tw",
+                        "url": "/WebBit_dev/zh-tw/",
+                        "label": "繁體中文"
+                    },
+                    {
+                        "id": "en",
+                        "url": "/WebBit_dev/en/",
+                        "label": "English"
+                    }
+                ]
+            }
+        ]
+    }
+}

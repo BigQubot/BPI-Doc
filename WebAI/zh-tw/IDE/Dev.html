@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html id="[]" class=" language_zh_tw ">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="generator" content="teedoc">
+    <meta name="theme" content="teedoc-plugin-theme-default">
+    
+    <meta name="markdown-generator" content="teedoc-plugin-markdown-parser">
+    
+    <link rel="stylesheet" href="/static/css/theme_default/prism.min.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/viewer.min.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/dark.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/light.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/custom.css" type="text/css"/>
+    
+    <script src="/static/js/theme_default/split.js"></script>
+    
+    <script src="/static/js/theme_default/jquery.min.js"></script>
+    
+    <script src="/static/js/theme_default/pre_main.js"></script>
+    
+    <link rel="stylesheet" href="/static/css/search/style.css" type="text/css"/>
+    
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0a495693906e5482a1afd1dda6ea6234";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    
+    <title> BPI-Steam </title>
+</head>
+<body>
+    <div id="navbar">
+        <div id="navbar_menu">
+            <a class="site_title" href="/">
+                
+                    <img class="site_logo" src="/static/image/logo.png" alt="BPI logo">
+                
+                
+                    <h2>BPI Steam</h2>
+                
+        </a>
+            <a id="navbar_menu_btn"></a>
+        </div>
+        <div id="navbar_items">
+            <div>
+                <ul id="nav_left">
+<li class=""><a  href="/zh-tw/">首頁</a></li>
+<li class="sub_items "><a  href="">WebBit:</a><ul><li class=""><a  href="/WebBit_doc/zh-tw/">使用手冊</a></li>
+<li class=""><a  href="/WebBit_dev/zh-tw/">開發手冊</a></li>
+</ul></li>
+<li class="active"><a  href="/WebAI/zh-tw/">WebAI</a></li>
+<li class=""><a  href="/Q-Car/zh-tw/">Q-Car</a></li>
+<li class=""><a  href="/Triode-Car/zh-tw/">Triode-Car</a></li>
+<li class=""><a  href="/About/zh-tw/">關於我們</a></li>
+</ul>
+
+            </div>
+            <div>
+                <ul id="nav_right">
+<li class="sub_items "><a  href="">語言: 繁體中文</a><ul><li class=""><a  href="/WebAI/zh/">简体中文</a></li>
+<li class="active"><a  href="/WebAI/zh-tw/">繁體中文</a></li>
+<li class=""><a  href="/WebAI/en/">English</a></li>
+</ul></li>
+</ul>
+
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">搜索</span>
+                            <div id="search_hints">
+                                <span id="search_input_hint">输入关键词，多关键词空格隔开</span>
+                                <span id="search_loading_hint">正在加载，请稍候。。。</span>
+                                <span id="search_download_err_hint">下载文件失败，请刷新重试或检查网络</span>
+                                <span id="search_other_docs_result_hint">来自其它文档的结果</span>
+                                <span id="search_curr_doc_result_hint">当前文档搜索结果</span>
+                            </div></a></li></ul>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="sidebar_wrapper">
+            <div id="sidebar">
+                <div id="sidebar_title">
+                    
+                </div>
+                <ul class="show">
+<li class="not_active no_link"><a><span class="label">一、開箱 Web:AI 開發板</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Unboxing/Introduction.html"><span class="label">Web:AI 介紹</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Unboxing/Introduction.html"><span class="label">產品內容</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">Web:AI 開發板</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">Webduino 教育平台</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Unboxing/Initialization.html"><span class="label">初始化設定 ( 第一次使用請看這裡 )</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Unboxing/Update.html"><span class="label">安裝版更新韌體</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Unboxing/SettingWIFI.html"><span class="label">開發板 Wi-Fi 設定</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Unboxing/Mode.html"><span class="label">操作模式</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active no_link"><a><span class="label">主程式模式</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">QRcode 模式</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">回復預設狀態</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Unboxing/Card.html"><span class="label">教學範例卡使用教學</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">二、Web:AI 程式積木</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Introduction.html"><span class="label">程式積木平台介紹</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">基礎功能</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Basic/Variables.html"><span class="label">變數</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Basic/Logic.html"><span class="label">逻辑</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Basic/Loops.html"><span class="label">重複</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Basic/Math.html"><span class="label">數學式</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Basic/Text.html"><span class="label">文字</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Basic/Lists.html"><span class="label">陣列</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Basic/Functions.html"><span class="label">函式</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">進階功能</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Advanced/FileRW.html"><span class="label">檔案讀寫</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Advanced/QRCode.html"><span class="label">掃描條碼</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Advanced/Color.html"><span class="label">顏色追蹤</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Advanced/Face.html"><span class="label">人臉追蹤</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Advanced/Image.html"><span class="label">影像分類</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Advanced/Object.html"><span class="label">物件追蹤</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Advanced/Speech.html"><span class="label">語音辨識</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">偵測</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">Web:AI</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/WebAI/Board.html"><span class="label">開發板</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/WebAI/LCD.html"><span class="label">LCD 螢幕</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/WebAI/Button.html"><span class="label">按鈕開關</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/WebAI/Mic.html"><span class="label">麥克風</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/WebAI/IO.html"><span class="label">I/O 引腳</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">擴充功能</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Expand/MQTT.html"><span class="label">網路廣播</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Expand/Servo.html"><span class="label">伺服馬達</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Programming/Expand/Speaker.html"><span class="label">喇叭</span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Train/Train.html"><span class="label">三、影像訓練</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active no_link"><a><span class="label">Web:AI 影像辨識介紹</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">影像辨識流程</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">A. 登入影像訓練平台</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">B. 建立分類</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">C. 使用開發板拍攝影像</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">D. 建立模型</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">E. 下載模型</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">F. 使用程式積木執行影像辨識</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Train/Train.html"><span class="label">影像分類</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/Train/Train.html"><span class="label">物件追蹤</span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="active with_link"><a href="/WebAI/zh-tw/IDE/Dev.html"><span class="label">四、使用 IDE 開發 Web:AI</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active no_link"><a><span class="label">開發環境介紹</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">使用 kflash_gui 更新韌體</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">使用 MaixPy IDE 執行指令</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">程式範例</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/WebAI/zh-tw/MoonCar/MoonCar.html"><span class="label">五、操控 MoonCar</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active no_link"><a><span class="label">顏色偵測</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">循跡自走</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">循跡 + 物件追蹤</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">馬達控制</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">相關感測器</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">萬用遙控器控制登月小車</span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            <div id="sidebar_splitter">
+            </div>
+        </div>
+        <div id="article">
+            <div id="menu_wrapper">
+                <div id="menu">
+                </div>
+            </div>
+            <div id="content_wrapper">
+                <div id="content_body">
+                    <div id="article_head">
+                        <div id="article_title">
+                            <h1></h1>
+                        </div>
+                        <div id="article_tags">
+                            <ul>
+                            
+                            </ul>
+                        </div>
+                        <div id="article_info">
+                        <div>
+                            <span class="article_author">
+                                
+                            </span>
+                            <span class="article_date">
+                                
+                            </span>
+                        </div>
+                        <div>
+                            
+                            <div id="source_link">
+                                <a href="https://github.com/BigQubot/BPI-Doc/blob/main/docs/WebAI/zh-tw/IDE/Dev.md" target="_blank">
+                                    编辑本页
+                                </a>
+                            </div>
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div id="article_content">
+                        <h1 id="四、使用-IDE-開發-Web:AI">四、使用 IDE 開發 Web:AI</h1>
+<p>Web:AI 開發板除了可以用程式積木平台操作外，甚至也支援直接在 IDE 上撰寫 Python 程式，並透過開發板執行。</p>
+<blockquote><p>IDE：Integrated Development Environment ( 整合開發環境 )，一種輔助開發軟體的應用程式，在工具內部就能夠編寫原始碼，並打包成可用的程式。</p>
+</blockquote>
+<h3 id="腳位定義">腳位定義</h3>
+<p><img src="../assets/images/upload_86f5831686be2d9682c479ea7d912837.png" alt=""></p>
+<h3 id="主晶片-(-K210-)-&amp;-Wi-Fi-晶片-(-ESP8285-)">主晶片 ( K210 ) &amp; Wi-Fi 晶片 ( ESP8285 )</h3>
+<p><img src="../assets/images/upload_44609bc24a5a34baf5a7e554ef92bd8e.png" alt=""></p>
+<h2 id="開發環境介紹">開發環境介紹</h2>
+<p>Web:AI 開發板可配合 <a href="https://maixpy.sipeed.com/">Sipeed公司</a> 推出的 MaixPy IDE 使用，該 IDE 雖然沒有開源，但提供了程式編寫整合開發環境，可以撰寫 MicroPython 並傳送到 Web:AI 開發板中執行，歡迎參考下方操作步驟。</p>
+<p>開發環境畫面如下：</p>
+<p><img src="../assets/images/upload_81c4247711446de3b89009483a0f36e5.png" alt="MaixPy"></p>
+<h2 id="使用-kflash_gui-更新標準版韌體">使用 kflash_gui 更新標準版韌體</h2>
+<p>需要先使用 kflash_gui 將 Web:AI 韌體檔案燒錄至開發板中，才能透過 MaixPy IDE 使用 Web:AI 功能。</p>
+<blockquote><p>燒錄前請先透過 USB 線將 Web:AI 開發板接上電腦。</p>
+</blockquote>
+<h3 id="使用-kflash_gui-燒錄">使用 kflash_gui 燒錄</h3>
+<ol>
+<li><p>下載 Web:AI 韌體檔案 <a href="https://drive.google.com/file/d/1c819ka2ng8UgqVvTEjVFMPiEBrzDYyxO/view?usp=sharing">韌體檔案</a>。</p>
+</li>
+<li><p>下載 <a href="https://github.com/sipeed/kflash_gui/releases/tag/v1.6.7">kflash_gui</a>，點擊執行，開啟 webai.kfpkg 韌體檔，等待下載完畢後就燒錄完成了。</p>
+<p><img src="../assets/images/upload_ce3be2497b3bbb94d08f5d14df8ffc09.png" alt=""></p>
+</li>
+<li><p>kflash_gui 參數設定畫面如下，如果燒錄異常，可嘗試調整燒錄的速度</p>
+<p><img src="../assets/images/upload_7e9b1dddd437cb218a9afe4119ad4db1.png" alt=""></p>
+</li>
+</ol>
+<h2 id="使用-MaixPy-IDE-執行指令">使用 MaixPy IDE 執行指令</h2>
+<h3 id="1.-下載-MaixPy-IDE：">1. 下載 MaixPy IDE：</h3>
+<p>點擊 <a href="https://drive.google.com/drive/u/0/folders/1AhEgANgd8PxQOlZgmxWc8JhbpstaIXDS">MaixPy IDE</a> 下載，安裝後開啟 MaixPy IDE 應用程式，進入開發環境畫面。</p>
+<p><img src="../assets/images/upload_ef24ff8d1880128fa54c87a49cc5105f.png" alt="MaixPy IDE 介面"></p>
+<h3 id="2.-新建檔案：">2. 新建檔案：</h3>
+<p>點擊左側側邊欄「新建檔案」按鈕 ( 白色資料圖示 )，在頁面中可以自行輸入 Python 程式碼。可以直接複製下方的程式碼範例，貼在編輯畫面中，執行範例展示。</p>
+<h3 id="3.-選擇開發板：">3. 選擇開發板：</h3>
+<p>點擊上方「工具」&gt;「選擇開發板」&gt;「Sipeed Maix Bit ( with Mic )」，代表選擇控制 Web:AI 開發板。</p>
+<p><img src="../assets/images/upload_5cf48d37570d61c20fa0f3cc0f94debe.png" alt=""></p>
+<h3 id="4.-開啟終端">4. 開啟終端</h3>
+<ol>
+<li><p>點擊上方「工具」&gt;「開啟終端」&gt;「新終端」</p>
+<p><img src="../assets/images/upload_3abe5bed046bbf41d2914681d4fd0daf.png" alt=""></p>
+</li>
+<li><p>選擇「連線到序列埠」</p>
+<p><img src="../assets/images/upload_6add55ea4c6d108b5fe3cad6542724db.png" alt=""></p>
+</li>
+</ol>
+<h3 id="5.-開啟-Web:AI">5. 開啟 Web:AI</h3>
+<ol>
+<li><p>開啟終端後，會看到如下畫面：</p>
+<p><img src="../assets/images/upload_e59c37efecb5c1b2527510b9a2889417.png" alt=""></p>
+</li>
+<li><p>在 IDE 中輸入程式碼，按下執行，即可在直接終端中查看執行結果。</p>
+</li>
+</ol>
+<h2 id="程式範例">程式範例</h2>
+<p>使用 Python 程式時，可以直接複製下方的程式碼範例，貼在編輯畫面中，執行範例展示。</p>
+<h2 id="感測器">感測器</h2>
+<p><img src="../assets/images/upload_22df52e5a1be1ec587fe04a042634959.png =30%x" alt=""></p>
+<h3 id="範例：攝像頭-Sensor">範例：攝像頭 Sensor</h3>
+<ul>
+<li>程式內容：使用 Web:AI 內建的攝像頭捕捉畫面，即時顯示到 LCD 螢幕中。</li>
+</ul>
+<pre><code class="lang-python">from webai import *
+
+pic = webai.snapshot()
+webai.show(img=pic)
+</code></pre>
+<p><img src="../assets/images/upload_f733579dd18caea93542ce6b2d672d00.png =30%x" alt=""></p>
+<h2 id="螢幕-LCD-顯示">螢幕 LCD 顯示</h2>
+<p><img src="../assets/images/upload_9a95715444776fa01a7afcef8c36b4d5.png =30%x" alt=""></p>
+<h3 id="範例：顯示文字">範例：顯示文字</h3>
+<ul>
+<li><p>程式內容：輸入指定的文字、位置、樣式，並顯示在 LCD 螢幕上。</p>
+</li>
+<li><p>==lcd.draw_string( x 座標 , y 座標 , " 文字 " , 文字顏色 , 背景顏色 )==</p>
+</li>
+</ul>
+<pre><code class="lang-python">from webai import *
+
+webai.draw_string(30,10,&quot;測試 OK&quot;,scale=2)
+</code></pre>
+<p><img src="../assets/images/upload_a8feb305b558a728a5191fc20c98ab12.png =30%x" alt=""></p>
+<h3 id="範例：畫線">範例：畫線</h3>
+<ul>
+<li><p>程式內容：設定線段的 2 個端點位置、顏色、寬度，繪製在 LCD 螢幕上。也可同時繪製多條線段。</p>
+</li>
+<li><p>==img.draw_line( x 座標 , y 座標 , x 座標 , y 座標 , 顏色 , 線段寬度 )==</p>
+</li>
+</ul>
+<pre><code class="lang-python">from webai import *
+
+webai.img = image.Image()
+webai.img.draw_line(10,150,310,150,color=lcd.RED,thickness=20)
+webai.show(img=webai.img)
+</code></pre>
+<p><img src="../assets/images/upload_bd152fa8f05d75d8a0404446c60be2af.png =30%x" alt=""></p>
+<h2 id="按鈕">按鈕</h2>
+<h3 id="範例：按鈕控制">範例：按鈕控制</h3>
+<ul>
+<li><p>程式內容：按 L 按鈕顯示 A，按 R 按鈕顯示 B。</p>
+</li>
+<li><p>==webai.draw_string( x 座標 , y 座標 , " 英文數字 ", 文字縮放 )==</p>
+</li>
+</ul>
+<pre><code class="lang-python">from webai import *
+# state=1:click_down , state=2:click_up , state=3:long_press 
+def click(name,state):
+    webai.img.clear()
+    if name == &#39;btnL&#39; and state == 1:
+        webai.draw_string(60, 100, &quot;A&quot;, scale=4)    
+    if name == &#39;btnR&#39; and state == 1:
+        webai.draw_string(280, 100, &quot;B&quot;, scale=4)    
+
+webai.img = image.Image()
+webai.addBtnListener(click)
+</code></pre>
+<p><img src="../assets/images/upload_1ebffb83a09532397e2dd8f9092721f2.png" alt="LR按鈕"></p>
+<h3 id="範例：按鈕控制---監聽所有按鈕事件">範例：按鈕控制 - 監聽所有按鈕事件</h3>
+<p>按鍵事件總共有 7 種事件</p>
+<p>L(左鍵):  name=='btnL' , state==1:按下 , state==2:放開 , state==3:長按超過2秒
+R(右鍵):  name=='btnR' , state==1:按下 , state==2:放開 , state==3:長按超過2秒
+L + R : state == 4 (左右按鍵一起按)</p>
+<pre><code class="lang-python">from webai import *
+# state=1:click_down , state=2:click_up , state=3:long_press 
+def click(name,state):
+    webai.img.clear()
+    # 按下左鍵
+    if name == &#39;btnL&#39; and state == 1:
+        webai.draw_string(60, 100, &quot;A&quot;, scale=4)
+    # 放開左鍵
+    if name == &#39;btnL&#39; and state == 2:
+        webai.draw_string(60, 100, &quot; &quot;, scale=4)
+    # 長按左鍵超過2秒
+    if name == &#39;btnL&#39; and state == 3:
+        webai.draw_string(50, 100, &quot;A!&quot;, scale=4)
+
+    # 按下右鍵
+    if name == &#39;btnR&#39; and state == 1:
+        webai.draw_string(220, 100, &quot;B &quot;, scale=4)
+    # 按下右鍵
+    if name == &#39;btnR&#39; and state == 2:
+        webai.draw_string(220, 100, &quot; &quot;, scale=4)
+    # 長按右鍵超過2秒
+    if name == &#39;btnR&#39; and state == 3:
+        webai.draw_string(210, 100, &quot;B!&quot;, scale=4)  
+
+    # 左鍵+右鍵一起按
+    if state == 4:
+        webai.draw_string(50, 100, &quot;A  +  B&quot;, scale=4)        
+
+webai.img = image.Image()
+webai.addBtnListener(click)
+</code></pre>
+<h3 id="範例：按鈕拍照顯示照片">範例：按鈕拍照顯示照片</h3>
+<ul>
+<li>範例程式：<ol>
+<li>按下 L 按鈕進行拍照並寫檔</li>
+<li>長按 R 按鈕將照片顯示在 LCD 螢幕上</li>
+<li>再按一下 R 按鈕恢復拍攝模式</li>
+</ol>
+</li>
+</ul>
+<pre><code class="lang-python">from webai import *
+
+def click(name,state):
+    global show
+    if name == &#39;btnL&#39; and state == 2:
+        webai.img = webai.snapshot()
+        webai.img.save(&#39;myImg.jpg&#39;)
+        print(&quot;save OK&quot;)
+    if name == &#39;btnR&#39; and state == 1:        
+        show = False
+    if name == &#39;btnR&#39; and state == 3:
+        show = True
+        webai.show(file = &#39;myImg.jpg&#39;)
+
+show = False
+webai.addBtnListener(click)
+while True:
+    if not show:
+        webai.img = webai.snapshot()
+        webai.show(img = webai.img)
+</code></pre>
+<p><img src="../assets/images/upload_12a14b46fe9eede0762043451dc8dead.png =400x" alt=""></p>
+<h2 id="腳位控制">腳位控制</h2>
+<h3 id="範例：讀取類比腳位">範例：讀取類比腳位</h3>
+<p><img src="../assets/images/upload_1bf8dec7eceade62de536f34c0b58f74.png =40%x" alt=""></p>
+<ul>
+<li><p>讀取 pin4 類比訊號，數值介於 0~1023 ，電壓是 0~1V。</p>
+</li>
+<li><p>程式內容：用手觸碰類比腳 ( pin4 )，就可以看到螢幕顯示數值上升到 1023。</p>
+</li>
+</ul>
+<p><img src="../assets/images/upload_3bdfbbf6eeae5225db112f9998e95362.png" alt=""></p>
+<pre><code class="lang-python">from webai import *
+while True:
+    val = webai.adc()
+    img = image.Image()
+    img.draw_string(120, 100, str(val), scale=4)
+    lcd.display(img)
+    time.sleep(0.1)
+    lcd.clear()
+</code></pre>
+<h2 id="外接喇叭、SD卡">外接喇叭、SD卡</h2>
+<h3 id="使用喇叭播放音檔">使用喇叭播放音檔</h3>
+<p><img src="../assets/images/upload_6e7808c81c364f6a2f5900f878fa8347.png =60%x" alt=""></p>
+<ul>
+<li>程式內容：播放 wav 檔。</li>
+</ul>
+<pre><code class="lang-python">from webai import *
+webai.speaker.setVolume(100)
+webai.speaker.play(filename=&#39;logo.wav&#39;,sample_rate=11025)
+</code></pre>
+<h2 id="Wi-Fi-設定">Wi-Fi 設定</h2>
+<h3 id="設定開發板連線-Wi-Fi">設定開發板連線 Wi-Fi</h3>
+<ul>
+<li>程式內容：透過 Wi-Fi 連上網路，如果試了三次都連不上，就顯示異常。<ul>
+<li>第二行：設定 Wi-Fi 的 SSID 和 PWD</li>
+<li>第六行：儲存 Wi-Fi 設定</li>
+<li>第七行：開發板重開機</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-python">from webai import *
+wifi = {
+&#39;ssid&#39;:&#39;webduino.io&#39;,
+&#39;pwd&#39;:&#39;webduino&#39;
+}
+webai.cfg.put(&#39;wifi&#39;, wifi)
+webai.reset()
+</code></pre>
+<h2 id="MQTT">MQTT</h2>
+<blockquote><p>建議使用 Webduino 提供的程式庫，比較方便使用。</p>
+</blockquote>
+<h3 id="MQTT-訂閱資料">MQTT 訂閱資料</h3>
+<ul>
+<li>程式內容：訂閱頻道 " subTest "。<ul>
+<li>第三行：在螢幕上顯示廣播訊息</li>
+</ul>
+</li>
+</ul>
+<p>可透過Web:Bit範例程式發佈訊息進行測試
+<a href="https://webbit.webduino.io/blockly/?demo=default#7qZr95m27k8qO">https://webbit.webduino.io/blockly/?demo=default#7qZr95m27k8qO</a></p>
+<pre><code class="lang-python">from webai import *
+def msg(topic, msg):
+    webai.lcd.clear()
+    webai.draw_string(130, 100, &quot;%s&quot;%msg, scale=2, x_spacing=10)
+webai.mqtt.sub(&#39;subTest&#39;, msg)
+</code></pre>
+<h3 id="MQTT-發行資料">MQTT 發行資料</h3>
+<ul>
+<li>程式內容：向頻道 " subTest " 傳送 " Hello Web:AI "。<ul>
+<li>第一行：完成 MQTT 連線</li>
+<li>第二行：傳送一筆資料</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-python">from webai import *
+webai.mqtt.pub(&#39;subTest&#39;,&#39;Hello Web:AI&#39;)
+</code></pre>
+<h2 id="下載檔案(模型檔案、SPIFFS..等)-燒錄到指定的-flash-address">下載檔案(模型檔案、SPIFFS..等) 燒錄到指定的 flash address</h2>
+<p>下面這範例程式是更新webAI檔案系統</p>
+<pre><code class="lang-python">url = &#39;http://share.webduino.io/storage/download/0605_143342.696_m_0x400000_maixpy_spiffs.img&#39;
+webai.cloud.download(url,address=0x400000,redirect=False,showProgress=True)
+</code></pre>
+<h2 id="透過-UART-和-Arduino溝通">透過 UART 和 Arduino溝通</h2>
+<p>Arduino 可以透過 UART 和 Web:AI 連線傳送資料，下面程式範例是讓 ESP8266 傳送字元給 Web:AI 進行顯示</p>
+<p><iframe src="https://www.youtube.com/embed/c9VH46zGpps" allowfullscreen width="100%" style="aspect-ratio:728/410;border:none " ></iframe></p>
+<pre><code class="lang-python">from machine import UART
+import sensor, image, time, lcd
+from fpioa_manager import fm
+from Maix import GPIO
+
+
+fm.register(24, fm.fpioa.UART1_TX, force=True)
+fm.register(25, fm.fpioa.UART1_RX, force=True)
+uart = UART(UART.UART1, 57600, timeout=5000,read_buf_len=2048)
+lcd.init()
+img = image.Image()
+img.draw_string(100,100,&#39;Go&#39;,scale=3)
+lcd.display(img)
+while True:
+    while uart.any():
+        myLine = uart.readline()
+        img.draw_string(100,100,myLine,scale=3)
+        lcd.display(img)
+        img.clear()
+</code></pre>
+<p>Arduino</p>
+<pre><code class="lang-c">void setup() {
+  Serial.begin(57600);
+  pinMode(15, OUTPUT);
+}
+
+void loop() {
+  Serial.println(&#39;A&#39;);
+  digitalWrite(15, HIGH);
+  delay(500);
+  Serial.println(&#39;B&#39;);
+  digitalWrite(15, LOW);
+  delay(500);
+}
+</code></pre>
+
+                    </div>
+                </div>
+                <div id="previous_next">
+                    <div id="previous">
+                        
+                        <a href="/WebAI/zh-tw/Train/Train.html">
+                            <span class="icon"></span>
+                            <span class="label">物件追蹤</span>
+                        </a>
+                        
+                    </div>
+                    <div id="next">
+                        <a href="/WebAI/zh-tw/MoonCar/MoonCar.html">
+                            <span class="label">五、操控 MoonCar</span>
+                            <span class="icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="toc">
+                <div id="toc_content">
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="to_top" href="#"></a>
+    <div id="doc_footer">
+        <div id="footer">
+            <div id="footer_top">
+                <ul>
+<li><a>链接</a><ul><li><a target="_blank" href="https://www.banana-pi.org.cn">Banana Pi</a></li>
+<li><a target="_blank" href="http://wiki.banana-pi.org/Main_Page">Wiki</a></li>
+<li><a target="_blank" href="https://webduino.io/">Webduino</a></li>
+<li><a target="_blank" href="https://shop108780008.taobao.com/">淘寶</a></li>
+</ul>
+</li>
+<li><a>源碼</a><ul><li><a target="_blank" href="https://github.com/BPI-STEAM/BPI-Doc">本網站源文件</a></li>
+<li><a target="_blank" href="https://github.com/BPI-SINOVOIP">BananaPi源文件</a></li>
+</ul>
+</li>
+<li><a>聯繫我們</a><ul><li><a>電話: +86 0755-26475332</a>
+</li>
+<li><a>商業支持: sales@sinovoip.com.cn (銷售部）</a>
+</li>
+<li><a>技術支持: support@sinovoip.com.cn (技術部）</a>
+</li>
+<li><a>地址: 廣東省松山湖高新技術產業開發區融易大廈 7 樓</a>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            <div id="footer_bottom">
+                <ul>
+<li><a target="_blank" href="https://www.banana-pi.org.cn">Copyright © 2021 Banana Pi</a></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+    <script src="/static/js/theme_default/tocbot.min.js"></script>
+
+    <script src="/static/js/theme_default/main.js"></script>
+
+    <script src="/static/js/theme_default/viewer.min.js"></script>
+
+    <script src="/static/css/theme_default/prism.min.js"></script>
+
+    <script src="/static/js/custom.js"></script>
+
+    <script src="/static/js/search/search_main.js"></script>
+
+</html>
