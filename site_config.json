@@ -2,45 +2,135 @@
     "site_name": "BPI-Steam",
     "site_slogon": "BananaPi Steam Education Team",
     "site_root_url": "/",
-    "site_domain": "test.bpi-steam.com",
+    "site_domain": "bpi-steam.com",
     "site_protocol": "https",
     "config_template_dir": "config",
-    "source": "https://github.com/BigQubot/BPI-Doc/blob/main",
+    "source": "https://github.com/BPI-STEAM/BPI-Doc/blob/main",
     "route": {
         "docs": {
             "/Q-Car/zh/": "docs/Q-Car/zh",
-            "/Q-Car/zh-tw/": "docs/Q-Car/zh-tw",
-            "/Q-Car/en/": "docs/Q-Car/en",
             "/Triode-Car/zh/": "docs/Triode-Car/zh",
-            "/Triode-Car/zh-tw/": "docs/Triode-Car/zh-tw",
-            "/Triode-Car/en/": "docs/Triode-Car/en",
             "/WebBit_dev/zh/": "docs/WebBit_dev/zh",
-            "/WebBit_dev/zh-tw/": "docs/WebBit_dev/zh-tw",
-            "/WebBit_dev/en/": "docs/WebBit_dev/en",
             "/WebBit_doc/zh/": "docs/WebBit_doc/zh",
-            "/WebBit_doc/zh-tw/": "docs/WebBit_doc/zh-tw",
-            "/WebBit_doc/en/": "docs/WebBit_doc/en",
             "/WebAI/zh/": "docs/WebAI/zh",
-            "/WebAI/zh-tw/": "docs/WebAI/zh-tw",
-            "/WebAI/en/": "docs/WebAI/en",
-            "/About/zh/": "docs/About/zh",
-            "/About/zh-tw/": "docs/About/zh-tw",
-            "/About/en/": "docs/About/en"
-
+            "/Leaf_S3_doc/zh/": "docs/Leaf_S3_doc/zh",
+            "/PicoW_S3_doc/zh/": "docs/PicoW_S3_doc/zh",
+            "/About/zh/": "docs/About/zh"
+            
         },
         "pages": {
-            "/": "pages/index/zh",
-            "/zh-tw/": "pages/index/zh-tw",
-            "/en/": "pages/index/en"
+            "/": "pages/index/zh"
         },
         "assets": {
             "/static/": "static",
-            "/WebAI/zh-tw/assets/": "docs/WebAI/zh-tw/assets",
+            "/Q-Car/zh/assets/":"docs/Q-Car/zh/assets",
+            "/Leaf_S3_doc/zh/assets/":"docs/Leaf_S3_doc/zh/assets",
+            "/PicoW_S3_doc/zh/assets/":"docs/PicoW_S3_doc/zh/assets",
+            "/Triode-Car/zh/assets/": "docs/Triode-Car/zh/assets",
+            "/WebAI/zh_tw/assets/": "docs/WebAI/zh_tw/assets",
             "/WebAI/zh/assets/": "docs/WebAI/zh/assets",
             "/WebBit_dev/zh/assets/": "docs/WebBit_dev/zh/assets",
             "/WebBit_doc/zh/assets/": "docs/WebBit_doc/zh/assets"
         },
-        "/blog/": "blog"
+        "blog": {
+            "/news/": "news"
+        }
+    },
+    "translate": {
+        "docs": {
+            "/Q-Car/zh/": [
+                {
+                    "url": "/Q-Car/en/",
+                    "src": "docs/Q-Car/en"
+                },
+                {
+                    "url": "/Q-Car/zh_tw/",
+                    "src": "docs/Q-Car/zh_tw"
+                }
+            ],
+            "/Triode-Car/zh/": [
+                {
+                    "url": "/Triode-Car/zh_tw/",
+                    "src": "docs/Triode-Car/zh_tw"
+                },
+                {
+                    "url": "/Triode-Car/en/",
+                    "src": "docs/Triode-Car/en"
+                }
+            ],
+            "/Leaf_S3_doc/zh/": [
+                {
+                    "url": "/Leaf_S3_doc/zh_tw/",
+                    "src": "docs/Leaf_S3_doc/zh_tw"
+                },
+                {
+                    "url": "/Leaf_S3_doc/en/",
+                    "src": "docs/Leaf_S3_doc/en"
+                }
+            ],
+            "/PicoW_S3_doc/zh/": [
+                {
+                    "url": "/PicoW_S3_doc/zh_tw/",
+                    "src": "docs/PicoW_S3_doc/zh_tw"
+                },
+                {
+                    "url": "/PicoW_S3_doc/en/",
+                    "src": "docs/PicoW_S3_doc/en"
+                }
+            ],
+            "/WebBit_dev/zh/": [
+                {
+                    "url": "/WebBit_dev/zh_tw/",
+                    "src": "docs/WebBit_dev/zh_tw"
+                },
+                {
+                    "url": "/WebBit_dev/en/",
+                    "src": "docs/WebBit_dev/en"
+                }
+            ],
+            "/WebBit_doc/zh/": [
+                {
+                    "url": "/WebBit_doc/zh_tw/",
+                    "src": "docs/WebBit_doc/zh_tw"
+                },
+                {
+                    "url": "/WebBit_doc/en/",
+                    "src": "docs/WebBit_doc/en"
+                }
+            ],
+            "/WebAI/zh/": [
+                {
+                    "url": "/WebAI/zh_tw/",
+                    "src": "docs/WebAI/zh_tw"
+                },
+                {
+                    "url": "/WebAI/en/",
+                    "src": "docs/WebAI/en"
+                }
+            ],
+            "/About/zh/": [
+                {
+                    "url": "/About/zh_tw/",
+                    "src": "docs/About/zh_tw"
+                },
+                {
+                    "url": "/About/en/",
+                    "src": "docs/About/en"
+                }
+            ]
+        },
+        "pages": {
+            "/": [
+                {
+                    "url": "/zh_tw/",
+                    "src": "pages/index/zh_tw"
+                },
+                {
+                    "url": "/en/",
+                    "src": "pages/index/en"
+                }
+            ]
+        }
     },
     "executable": {
         "python": "python3",
@@ -50,7 +140,23 @@
         "teedoc-plugin-markdown-parser":{
             "from": "pypi",
             "config": {
-                "toc_depth": 3
+                "toc_depth": 4
+            }
+        },
+        "teedoc-plugin-jupyter-notebook-parser": {
+            "from": "pypi",
+            "config": {
+
+            }
+        },
+        "teedoc-plugin-google-translate": {
+            "from": "pypi",
+            "config": {
+            }
+        },
+        "teedoc-plugin-blog": {
+            "from": "pypi",
+            "config": {
             }
         },
         "teedoc-plugin-theme-default":{
@@ -58,27 +164,70 @@
             "config": {
                 "dark": true,
                 "env":{
-                    "main_color": "#6391ed"
-                },
-                "css": "/static/css/custom.css",
-                "js": "/static/js/custom.js"
+                    "main_color": "#225378"
+                }
             }
         },
         "teedoc-plugin-search":{
             "from": "pypi",
             "config": {
-                "search_hint": "Search"
+                "search_hint": "Search",
+                "env":{
+                    "main_color": "#225378",
+                    "main_color_dark": "#923732",
+                    "hint_shadow_color": "rgba(146, 55, 50, 0.38)"
+                }
             }
         },
         "teedoc-plugin-baidu-tongji":{
             "from": "pypi",
             "config": {
-                "code": "0a495693906e5482a1afd1dda6ea6234"
+                "code": "789a62aac0b25ad52089ddb4f85128cd"
+            }
+        },
+        "teedoc-plugin-google-analytics":{
+            "from": "pypi",
+            "config": {
+                "id": "G-MRHWDDNYB6"
+            }
+        },
+        "teedoc-plugin-comments-gitalk": {
+            "from": "pypi",
+            "config": {
+                "env": {
+                    "clientID": "a49cf8907bbf60cd5e06",
+                    "clientSecret": "830239001737febb2419f5446f9a8518d240833b",
+                    "repo": "BPI-Doc",
+                    "owner": "BPI-STEAM",
+                    "admin": ["BigQubot", ""],
+                    "main_color": "#006DB8",
+                    "second_color": "#225378"
+                }
+            }
+        },
+        "teedoc-plugin-assets": {
+            "from": "pypi",
+            "config": {
+                "header_items": [
+                    "/static/css/custom.css"
+                ],
+                "footer_items": [
+                    "/static/js/custom.js"
+                ],
+                "env":{
+                    "main_color": "#225378",
+                    "second_color": "#e25d55"
+                }
             }
         }
     },
-    "rebuild_changes_delay": 0,
+    "rebuild_changes_delay": 1,
     "robots":{
         "User-agent": "*"
+    },
+    "teedoc-plugin-google-translate": {
+        "from": "pypi",
+        "config": {
+        }
     }
 }
