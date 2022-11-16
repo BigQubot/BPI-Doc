@@ -24,10 +24,6 @@
                 <n-card size="small" style="margin: auto; display: flex; height: 740px; " hoverable>
                        <template v-if="$t('language') === 'zh'">
                             <n-card style="margin: auto; display: fit-content; max-height: fit-content;">
-                                <n-carousel effect="card" class="base_background"
-                                    prev-slide-style="transform: translateX(-150%) translateZ(-1200px);"
-                                    next-slide-style="transform: translateX(50%) translateZ(-1200px);"
-                                    :show-dots="false" autoplay draggable style="height: 400px">
                                     <n-carousel-item :style="{ width: '75%' }">
                                         <n-card size="small" hoverable>
                                             <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
@@ -48,7 +44,6 @@
                                         </n-card>
                                     </n-carousel-item>
                                </n-carousel-item>
-                                </n-carousel>
                             </n-card>
                    </template>
                    <template v-else>                                    
