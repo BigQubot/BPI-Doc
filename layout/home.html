@@ -18,6 +18,65 @@
  <script src="/static/js/vue_i18n.js"></script>
 
  <div id="products">
+     <n-card class="head_background" hoverable>
+         <n-grid cols="9" item-responsive responsive="screen">
+                 <n-grid-item span="0 s:0 m:0 l:9" style="margin-left: 6%; margin-right: 6%; margin-bottom: 1%; ">
+                     <n-card size="small" style="margin: auto; display: flex; height: 740px; " hoverable>
+                         <n-tabs type="line" trigger='hover' justify-content="space-evenly">
+                            <template v-if="$t('language') === 'zh'">
+                            <!-- <n-tab-pane name="MAIX-III AI 高端战力新品">
+                                1. 什么是 爱芯 AX620A 芯片亮点是？
+                                2. 我们提供了什么？对比前两代前辈有什么不同？
+                                3. 在哪预售呢？？？搭配一些展会靓照
+                            </n-tab-pane> -->
+                        </template>
+                        <template v-else>   
+                            </template>
+                         </n-tabs>
+                     </n-card>
+                 </n-grid-item>
+
+             <n-grid-item span="9 s:9 m:9 l:9" >
+                 <n-card size="small" style="margin: auto; display: flex; min-height: fit-content; " hoverable>
+                     <n-tabs type="line" justify-content="space-evenly"
+                         tab-style="justify-content:center; display: flex; padding-left: 15px; padding-right: 15px; text-align: center; margin: 0 auto; font-size: 20px; "
+                         class="custom-tabs" trigger='hover'>
+                         <n-tab-pane v-bind:tab="key" v-bind:name="key"
+                             v-for="(value, key) in datas['products'][$t('language')]">
+                             <n-layout has-sider position="absolute" style="min-height: 700px; position: relative"
+                                 class="news_background" hoverable>
+                                 <n-grid cols="10" item-responsive responsive="screen">
+                                     <n-grid-item span="10 s:5 m:2 l:2" style="padding: 4%;" v-for="product in value">
+                                         <n-card v-bind:title="product.title" size="small" hoverable>
+                                             <img class="normal-img" v-bind:src="product.src">
+                                             <n-button-group style="margin: 5px; font-size: 16px;">
+                                                 <template v-if="product.lbtn_text === 'btn_eol'">
+                                                     <n-button disabled round>
+                                                         {[ $t(product.lbtn_text) ]}
+                                                     </n-button>
+                                                 </template>
+                                                 <template v-else>
+                                                     <n-button tag="a" v-bind:href="product.lbtn_href" target="_blank"
+                                                         round>
+                                                         {[ $t(product.lbtn_text) ]}
+                                                     </n-button>
+                                                 </template>
+                                                 <n-button style="color:#ffffff;" color="#e34548" tag="a"
+                                                     v-bind:href="product.rbtn_href" target="_blank" round>
+                                                     {[ $t(product.rbtn_text) ]}
+                                                 </n-button>
+                                             </n-button-group>
+                                         </n-card>
+                                     </n-grid-item>
+                                 </n-grid>
+                             </n-layout>
+                         </n-tab-pane>
+                     </n-tabs>
+                 </n-card>
+            </n-grid>
+         </n-grid>
+     </n-card>
+     
 
 </div><script>
     var pageLanguages = ["en", "zh"] // languages user can select in pages
