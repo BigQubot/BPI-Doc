@@ -36090,10 +36090,10 @@
       alphaScrollbarHover: "0.4",
       alphaCode: "0.05",
       alphaTag: "0.02",
-      primaryHover: "#ff6b63",
-      primaryDefault: "#ff6b63",
+      primaryHover: "#285276",
+      primaryDefault: "#285276",
       primaryActive: "#0c7a43",
-      primarySuppl: "#ff6b63",
+      primarySuppl: "#285276",
       infoHover: "#4098fc",
       infoDefault: "#2080f0",
       infoActive: "#1060c9",
@@ -36106,10 +36106,10 @@
       warningDefault: "#f0a020",
       warningActive: "#c97c10",
       warningSuppl: "#fcb040",
-      successHover: "#ff6b63",
-      successDefault: "#ff6b63",
+      successHover: "#285276",
+      successDefault: "#285276",
       successActive: "#0c7a43",
-      successSuppl: "#ff6b63"
+      successSuppl: "#285276"
     };
     const baseBackgroundRgb = rgba(base.neutralBase);
     const baseInvertBackgroundRgb = rgba(base.neutralInvertBase);
