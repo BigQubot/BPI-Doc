@@ -6,267 +6,268 @@
         保存此文件后如果需要立刻看到使用了这个模板的文件的效果，可以打开那个文件保存一次就会触发 teedoc 构建,
         比如 README.md 使用了此layout，要想此修改生效，转到 README.md 按 Ctrl+S 保存一次 README.md 即可
  -->
- {% extends "page_base.html" %}
+{% extends "page_base.html" %}
 
- {% block content %}
+{% block content %}
 
- <!-- <script src="https://unpkg.com/vue"></script> -->
- <!-- <script src="https://unpkg.com/naive-ui"></script> -->
- <script src="/static/js/vue.global.prod.js"></script>
- <script src="/static/js/naive-ui.prod.js"></script>
- <!-- <script src="/static/js/vue.js"></script> -->
- <script src="/static/js/vue_i18n.js"></script>
+<!-- <script src="https://unpkg.com/vue"></script> -->
+<!-- <script src="https://unpkg.com/naive-ui"></script> -->
+<script src="/static/js/vue.global.prod.js"></script>
+<script src="/static/js/naive-ui.prod.js"></script>
+<!-- <script src="/static/js/vue.js"></script> -->
+<script src="/static/js/vue_i18n.js"></script>
 
- <div id="products">
-     <n-card class="head_background" hoverable>
-         <n-grid cols="9" item-responsive responsive="screen">
+<div id="products">
+    <n-card class="head_background" hoverable>
+        <n-grid cols="9" item-responsive responsive="screen">
             <n-grid-item span="0 s:0 m:0 l:9" style="margin-left: 6%; margin-right: 6%; margin-bottom: 1%; ">
                 <n-card size="small" style="margin: auto; display: flex; height: 500px; " hoverable>
-                       <template v-if="$t('language') === 'zh'">
+                    <template v-if="$t('language') === 'zh'">
+                        <n-carousel effect="card" class="base_background"
+                            prev-slide-style="transform: translateX(-150%) translateZ(-1200px);"
+                            next-slide-style="transform: translateX(50%) translateZ(-1200px);" :show-dots="false"
+                            autoplay draggable style="height: 460px">
+                            <n-carousel-item :style="{ width: '75%' }">
+                                <n-card size="small" hoverable>
+                                    <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
+                                            src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
+                                    <n-divider title-placement="right">
+                                        <n-button-group style="margin: 5px; font-size: 16px;">
+                                            <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
+                                                type="error" ghost>
+                                                认识 BPI-Leaf-S3 开发板
+                                            </n-button>
+                                            <n-button size="large" style="color:#ffffff; " color="#6391ed"
+                                                href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
+                                                target="_blank" round>
+                                                购买链接
+                                            </n-button>
+                                        </n-button-group>
+                                    </n-divider>
+                                </n-card>
+                            </n-carousel-item>
+                            <n-carousel-item :style="{ width: '75%' }">
+                                <n-card size="small" hoverable>
+                                    <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
+                                            src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
+                                    <n-divider title-placement="right">
+                                        <n-button-group style="margin: 5px; font-size: 16px;">
+                                            <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
+                                                type="error" ghost>
+                                                认识 BPI-Leaf-S3 开发板
+                                            </n-button>
+                                            <n-button size="large" style="color:#ffffff; " color="#6391ed"
+                                                href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
+                                                target="_blank" round>
+                                                购买链接
+                                            </n-button>
+                                        </n-button-group>
+                                    </n-divider>
+                                </n-card>
+                            </n-carousel-item>
+                            <n-carousel-item :style="{ width: '75%' }">
+                                <n-card size="small" hoverable>
+                                    <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
+                                            src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
+                                    <n-divider title-placement="right">
+                                        <n-button-group style="margin: 5px; font-size: 16px;">
+                                            <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
+                                                type="error" ghost>
+                                                认识 BPI-Leaf-S3 开发板
+                                            </n-button>
+                                            <n-button size="large" style="color:#ffffff; " color="#6391ed"
+                                                href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
+                                                target="_blank" round>
+                                                购买链接
+                                            </n-button>
+                                        </n-button-group>
+                                    </n-divider>
+                                </n-card>
+                            </n-carousel-item>
+                            </n-carousel-item>
+                        </n-carousel>
+                    </template>
+                    <template v-if="$t('language') === 'zh_tw'">
+                        <n-carousel effect="card" class="base_background"
+                            prev-slide-style="transform: translateX(-150%) translateZ(-1200px);"
+                            next-slide-style="transform: translateX(50%) translateZ(-1200px);" :show-dots="false"
+                            autoplay draggable style="height: 460px">
+                            <n-carousel-item :style="{ width: '75%' }">
+                                <n-card size="small" hoverable>
+                                    <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
+                                            src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
+                                    <n-divider title-placement="right">
+                                        <n-button-group style="margin: 5px; font-size: 16px;">
+                                            <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
+                                                type="error" ghost>
+                                                认识 BPI-Leaf-S3 开发板
+                                            </n-button>
+                                            <n-button size="large" style="color:#ffffff; " color="#6391ed"
+                                                href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
+                                                target="_blank" round>
+                                                购买链接
+                                            </n-button>
+                                        </n-button-group>
+                                    </n-divider>
+                                </n-card>
+                            </n-carousel-item>
+                            <n-carousel-item :style="{ width: '75%' }">
+                                <n-card size="small" hoverable>
+                                    <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
+                                            src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
+                                    <n-divider title-placement="right">
+                                        <n-button-group style="margin: 5px; font-size: 16px;">
+                                            <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
+                                                type="error" ghost>
+                                                认识 BPI-Leaf-S3 开发板
+                                            </n-button>
+                                            <n-button size="large" style="color:#ffffff; " color="#6391ed"
+                                                href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
+                                                target="_blank" round>
+                                                购买链接
+                                            </n-button>
+                                        </n-button-group>
+                                    </n-divider>
+                                </n-card>
+                            </n-carousel-item>
+                            <n-carousel-item :style="{ width: '75%' }">
+                                <n-card size="small" hoverable>
+                                    <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
+                                            src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
+                                    <n-divider title-placement="right">
+                                        <n-button-group style="margin: 5px; font-size: 16px;">
+                                            <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
+                                                type="error" ghost>
+                                                认识 BPI-Leaf-S3 开发板
+                                            </n-button>
+                                            <n-button size="large" style="color:#ffffff; " color="#6391ed"
+                                                href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
+                                                target="_blank" round>
+                                                购买链接
+                                            </n-button>
+                                        </n-button-group>
+                                    </n-divider>
+                                </n-card>
+                            </n-carousel-item>
+                            </n-carousel-item>
+                        </n-carousel>
+                    </template>
+                    <template v-else>
+                        <n-tab-pane name="Hot on sale">
+                            <n-card style="margin: auto; display: fit-content; max-height: fit-content;">
                                 <n-carousel effect="card" class="base_background"
                                     prev-slide-style="transform: translateX(-150%) translateZ(-1200px);"
                                     next-slide-style="transform: translateX(50%) translateZ(-1200px);"
                                     :show-dots="false" autoplay draggable style="height: 460px">
                                     <n-carousel-item :style="{ width: '75%' }">
                                         <n-card size="small" hoverable>
-                                            <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
+                                            <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
+                                                    src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
                                             <n-divider title-placement="right">
                                                 <n-button-group style="margin: 5px; font-size: 16px;">
-                                                <n-button size="large"
-                                                        href="/Leaf_S3_doc/zh/"
-                                                        target="_blank" tag="a" type="error" ghost>
-                                                        认识 BPI-Leaf-S3 开发板
+                                                    <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank"
+                                                        tag="a" type="error" ghost>
+                                                        See more about BPI-Leaf-S3
                                                     </n-button>
                                                     <n-button size="large" style="color:#ffffff; " color="#6391ed"
-                                                         href="https://item.taobao.com/item.htm?id=677287234553"
-                                                         tag="a" target="_blank" round>
-                                                        购买链接
-                                                </n-button>
+                                                        href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
+                                                        target="_blank" round>
+                                                        Buy it (Consult the saler)
+                                                    </n-button>
                                                 </n-button-group>
-                                            </n-divider>    
+                                            </n-divider>
                                         </n-card>
                                     </n-carousel-item>
                                     <n-carousel-item :style="{ width: '75%' }">
                                         <n-card size="small" hoverable>
-                                            <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
+                                            <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
+                                                    src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
                                             <n-divider title-placement="right">
                                                 <n-button-group style="margin: 5px; font-size: 16px;">
-                                                <n-button size="large"
-                                                        href="/Leaf_S3_doc/zh/"
-                                                        target="_blank" tag="a" type="error" ghost>
-                                                        认识 BPI-Leaf-S3 开发板
+                                                    <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank"
+                                                        tag="a" type="error" ghost>
+                                                        See more about BPI-Leaf-S3
                                                     </n-button>
                                                     <n-button size="large" style="color:#ffffff; " color="#6391ed"
-                                                         href="https://item.taobao.com/item.htm?id=677287234553"
-                                                         tag="a" target="_blank" round>
-                                                        购买链接
-                                                </n-button>
+                                                        href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
+                                                        target="_blank" round>
+                                                        Buy it (Consult the saler)
+                                                    </n-button>
                                                 </n-button-group>
-                                            </n-divider>    
+                                            </n-divider>
                                         </n-card>
                                     </n-carousel-item>
                                     <n-carousel-item :style="{ width: '75%' }">
                                         <n-card size="small" hoverable>
-                                            <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
+                                            <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
+                                                    src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
                                             <n-divider title-placement="right">
                                                 <n-button-group style="margin: 5px; font-size: 16px;">
-                                                <n-button size="large"
-                                                        href="/Leaf_S3_doc/zh/"
-                                                        target="_blank" tag="a" type="error" ghost>
-                                                        认识 BPI-Leaf-S3 开发板
+                                                    <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank"
+                                                        tag="a" type="error" ghost>
+                                                        See more about BPI-Leaf-S3
                                                     </n-button>
                                                     <n-button size="large" style="color:#ffffff; " color="#6391ed"
-                                                         href="https://item.taobao.com/item.htm?id=677287234553"
-                                                         tag="a" target="_blank" round>
-                                                        购买链接
-                                                </n-button>
+                                                        href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
+                                                        target="_blank" round>
+                                                        Buy it (Consult the saler)
+                                                    </n-button>
                                                 </n-button-group>
-                                            </n-divider>    
-                                        </n-card>
-                                    </n-carousel-item>
-                               </n-carousel-item>
-                                </n-carousel>
-                   </template>
-                   <template v-if="$t('language') === 'zh_tw'">
-                    <n-carousel effect="card" class="base_background"
-                        prev-slide-style="transform: translateX(-150%) translateZ(-1200px);"
-                        next-slide-style="transform: translateX(50%) translateZ(-1200px);"
-                        :show-dots="false" autoplay draggable style="height: 460px">
-                        <n-carousel-item :style="{ width: '75%' }">
-                            <n-card size="small" hoverable>
-                                <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
-                                <n-divider title-placement="right">
-                                    <n-button-group style="margin: 5px; font-size: 16px;">
-                                    <n-button size="large"
-                                            href="/Leaf_S3_doc/zh/"
-                                            target="_blank" tag="a" type="error" ghost>
-                                            认识 BPI-Leaf-S3 开发板
-                                        </n-button>
-                                        <n-button size="large" style="color:#ffffff; " color="#6391ed"
-                                             href="https://item.taobao.com/item.htm?id=677287234553"
-                                             tag="a" target="_blank" round>
-                                            购买链接
-                                    </n-button>
-                                    </n-button-group>
-                                </n-divider>    
-                            </n-card>
-                        </n-carousel-item>
-                        <n-carousel-item :style="{ width: '75%' }">
-                            <n-card size="small" hoverable>
-                                <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
-                                <n-divider title-placement="right">
-                                    <n-button-group style="margin: 5px; font-size: 16px;">
-                                    <n-button size="large"
-                                            href="/Leaf_S3_doc/zh/"
-                                            target="_blank" tag="a" type="error" ghost>
-                                            认识 BPI-Leaf-S3 开发板
-                                        </n-button>
-                                        <n-button size="large" style="color:#ffffff; " color="#6391ed"
-                                             href="https://item.taobao.com/item.htm?id=677287234553"
-                                             tag="a" target="_blank" round>
-                                            购买链接
-                                    </n-button>
-                                    </n-button-group>
-                                </n-divider>    
-                            </n-card>
-                        </n-carousel-item>
-                        <n-carousel-item :style="{ width: '75%' }">
-                            <n-card size="small" hoverable>
-                                <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
-                                <n-divider title-placement="right">
-                                    <n-button-group style="margin: 5px; font-size: 16px;">
-                                    <n-button size="large"
-                                            href="/Leaf_S3_doc/zh/"
-                                            target="_blank" tag="a" type="error" ghost>
-                                            认识 BPI-Leaf-S3 开发板
-                                        </n-button>
-                                        <n-button size="large" style="color:#ffffff; " color="#6391ed"
-                                             href="https://item.taobao.com/item.htm?id=677287234553"
-                                             tag="a" target="_blank" round>
-                                            购买链接
-                                    </n-button>
-                                    </n-button-group>
-                                </n-divider>    
-                            </n-card>
-                        </n-carousel-item>
-                   </n-carousel-item>
-                    </n-carousel>
-       </template>
-                   <template v-else>                                    
-                       <n-tab-pane name="Hot on sale">
-                            <n-card style="margin: auto; display: fit-content; max-height: fit-content;">
-                                <n-carousel effect="card" class="base_background"
-                                    prev-slide-style="transform: translateX(-150%) translateZ(-1200px);"
-                                    next-slide-style="transform: translateX(50%) translateZ(-1200px);"
-                                    :show-dots="false" autoplay draggable style="height: 400px"> 
-                                    <n-carousel-item :style="{ width: '75%' }">
-                                        <n-card size="small" hoverable>
-                                            <a href= "/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
-                                            <n-divider title-placement="right">
-                                                <n-button-group style="margin: 5px; font-size: 16px;">
-                                                <n-button size="large"
-                                                href="/Leaf_S3_doc/zh/"
-                                                target="_blank" tag="a" type="error" ghost>
-                                                See more about BPI-Leaf-S3
-                                            </n-button>
-                                            <n-button size="large" style="color:#ffffff; " color="#6391ed"
-                                                 href="https://item.taobao.com/item.htm?id=677287234553"
-                                                 tag="a" target="_blank" round>
-                                                 Buy it (Consult the saler)
-                                                </n-button>
-                                                </n-button-group>
-                                            </n-divider>    
-                                        </n-card>
-                                    </n-carousel-item>
-                                    <n-carousel-item :style="{ width: '75%' }">
-                                        <n-card size="small" hoverable>
-                                            <a href= "/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
-                                            <n-divider title-placement="right">
-                                                <n-button-group style="margin: 5px; font-size: 16px;">
-                                                <n-button size="large"
-                                                href="/Leaf_S3_doc/zh/"
-                                                target="_blank" tag="a" type="error" ghost>
-                                                See more about BPI-Leaf-S3
-                                            </n-button>
-                                            <n-button size="large" style="color:#ffffff; " color="#6391ed"
-                                                 href="https://item.taobao.com/item.htm?id=677287234553"
-                                                 tag="a" target="_blank" round>
-                                                 Buy it (Consult the saler)
-                                                </n-button>
-                                                </n-button-group>
-                                            </n-divider>    
-                                        </n-card>
-                                    </n-carousel-item>
-                                    <n-carousel-item :style="{ width: '75%' }">
-                                        <n-card size="small" hoverable>
-                                            <a href= "/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img" src="/static/image/BPI-Leaf-S3_banner.jpg" alt="BPI-Leaf-S3"></a>
-                                            <n-divider title-placement="right">
-                                                <n-button-group style="margin: 5px; font-size: 16px;">
-                                                <n-button size="large"
-                                                href="/Leaf_S3_doc/zh/"
-                                                target="_blank" tag="a" type="error" ghost>
-                                                See more about BPI-Leaf-S3
-                                            </n-button>
-                                            <n-button size="large" style="color:#ffffff; " color="#6391ed"
-                                                 href="https://item.taobao.com/item.htm?id=677287234553"
-                                                 tag="a" target="_blank" round>
-                                                 Buy it (Consult the saler)
-                                                </n-button>
-                                                </n-button-group>
-                                            </n-divider>    
+                                            </n-divider>
                                         </n-card>
                                     </n-carousel-item>
                                 </n-carousel>
                             </n-card>
                         </n-tab-pane>
-                       </template>
+                    </template>
 
                 </n-card>
             </n-grid-item>
 
-             <n-grid-item span="9 s:9 m:9 l:9" >
-                 <n-card size="small" style="margin: auto; display: flex; min-height: fit-content; " hoverable>
-                     <n-tabs type="line" justify-content="space-evenly"
-                         tab-style="justify-content:center; display: flex; padding-left: 15px; padding-right: 15px; text-align: center; margin: 0 auto; font-size: 20px; "
-                         class="custom-tabs" trigger='hover'>
-                         <n-tab-pane v-bind:tab="key" v-bind:name="key"
-                             v-for="(value, key) in datas['products'][$t('language')]">
-                             <n-layout has-sider position="absolute" style="min-height: 700px; position: relative"
-                                 class="news_background" hoverable>
-                                 <n-grid cols="8" item-responsive responsive="screen">
-                                     <n-grid-item span="8 s:5 m:2 l:2" style="padding: 4%;" v-for="product in value">
-                                         <n-card v-bind:title="product.title" size="small" hoverable>
-                                             <img class="normal-img" v-bind:src="product.src">
-                                             <n-button-group style="margin: 5px; font-size: 16px;">
-                                                 <template v-if="product.lbtn_text === 'btn_eol'">
-                                                     <n-button disabled round>
-                                                         {[ $t(product.lbtn_text) ]}
-                                                     </n-button>
-                                                 </template>
-                                                 <template v-else>
-                                                     <n-button tag="a" v-bind:href="product.lbtn_href" target="_blank"
-                                                         round>
-                                                         {[ $t(product.lbtn_text) ]}
-                                                     </n-button>
-                                                 </template>
-                                                 <n-button style="color:#ffffff;" color="#6391ed" tag="a"
-                                                     v-bind:href="product.rbtn_href" target="_blank" round>
-                                                     {[ $t(product.rbtn_text) ]}
-                                                 </n-button>
-                                             </n-button-group>
-                                         </n-card>
-                                     </n-grid-item>
-                                 </n-grid>
-                             </n-layout>
-                         </n-tab-pane>
-                     </n-tabs>
-                 </n-card>
-            </n-grid>
-         </n-grid>
-     </n-card>
-     
+            <n-grid-item span="9 s:9 m:9 l:9">
+                <n-card size="small" style="margin: auto; display: flex; min-height: fit-content; " hoverable>
+                    <n-tabs type="line" justify-content="space-evenly"
+                        tab-style="justify-content:center; display: flex; padding-left: 15px; padding-right: 15px; text-align: center; margin: 0 auto; font-size: 20px; "
+                        class="custom-tabs" trigger='hover'>
+                        <n-tab-pane v-bind:tab="key" v-bind:name="key"
+                            v-for="(value, key) in datas['products'][$t('language')]">
+                            <n-layout has-sider position="absolute" style="min-height: 700px; position: relative"
+                                class="news_background" hoverable>
+                                <n-grid cols="8" item-responsive responsive="screen">
+                                    <n-grid-item span="8 s:5 m:2 l:2" style="padding: 4%;" v-for="product in value">
+                                        <n-card v-bind:title="product.title" size="small" hoverable>
+                                            <img class="normal-img" v-bind:src="product.src">
+                                            <n-button-group style="margin: 5px; font-size: 16px;">
+                                                <template v-if="product.lbtn_text === 'btn_eol'">
+                                                    <n-button disabled round>
+                                                        {[ $t(product.lbtn_text) ]}
+                                                    </n-button>
+                                                </template>
+                                                <template v-else>
+                                                    <n-button tag="a" v-bind:href="product.lbtn_href" target="_blank"
+                                                        round>
+                                                        {[ $t(product.lbtn_text) ]}
+                                                    </n-button>
+                                                </template>
+                                                <n-button style="color:#ffffff;" color="#6391ed" tag="a"
+                                                    v-bind:href="product.rbtn_href" target="_blank" round>
+                                                    {[ $t(product.rbtn_text) ]}
+                                                </n-button>
+                                            </n-button-group>
+                                        </n-card>
+                                    </n-grid-item>
+                                </n-grid>
+                            </n-layout>
+                        </n-tab-pane>
+                    </n-tabs>
+                </n-card>
+        </n-grid>
+        </n-grid>
+    </n-card>
 
-</div><script>
+
+</div>
+<script>
     var pageLanguages = ["en", "zh"] // languages user can select in pages
     ///////////////////// translate start /////////////////////
     const messages = {
@@ -418,9 +419,9 @@
                         rbtn_href: "/WebBit_dev/en/",
                     },
                 ],
-             }
-         },
-     }
+            }
+        },
+    }
     ///////////////////// config end /////////////////////
     // get page locale
     var locale = document.getElementsByTagName("html")[0].lang
@@ -604,7 +605,7 @@
         background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140, 0.03) 0%, rgba(140, 140, 140, 0.03) 25%, transparent 25%, transparent 100%), radial-gradient(circle at 28% 63%, rgba(143, 143, 143, 0.03) 0%, rgba(143, 143, 143, 0.03) 16%, transparent 16%, transparent 100%), radial-gradient(circle at 81% 56%, rgba(65, 65, 65, 0.03) 0%, rgba(65, 65, 65, 0.03) 12%, transparent 12%, transparent 100%), radial-gradient(circle at 26% 48%, rgba(60, 60, 60, 0.03) 0%, rgba(60, 60, 60, 0.03) 6%, transparent 6%, transparent 100%), radial-gradient(circle at 97% 17%, rgba(150, 150, 150, 0.03) 0%, rgba(150, 150, 150, 0.03) 56%, transparent 56%, transparent 100%), radial-gradient(circle at 50% 100%, rgba(25, 25, 25, 0.03) 0%, rgba(25, 25, 25, 0.03) 36%, transparent 36%, transparent 100%), radial-gradient(circle at 55% 52%, rgba(69, 69, 69, 0.03) 0%, rgba(69, 69, 69, 0.03) 6%, transparent 6%, transparent 100%), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
     }
 
-    .imbox{
+    .imbox {
         display: flex;
         flex-direction: row;
     }
