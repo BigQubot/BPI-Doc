@@ -33,7 +33,27 @@
                              <n-layout has-sider position="absolute" style="min-height: 700px; position: relative"
                                  class="news_background" hoverable>
                                  <n-grid cols="10" item-responsive responsive="screen">
-                                     <n-grid-item span="10 s:5 m:2 l:2" style="padding: 4%;" v-for="product in value"
+                                     <n-grid-item span="10 s:5 m:2 l:2" style="padding: 4%;" v-for="product in value">
+                                         <n-card v-bind:title="product.title" size="small" hoverable>
+                                             <img class="normal-img" v-bind:src="product.src">
+                                             <n-button-group style="margin: 5px; font-size: 16px;">
+                                                 <template v-if="product.lbtn_text === 'btn_eol'">
+                                                     <n-button disabled round>
+                                                         {[ $t(product.lbtn_text) ]}
+                                                     </n-button>
+                                                 </template>
+                                                 <template v-else>
+                                                     <n-button tag="a" v-bind:href="product.lbtn_href" target="_blank"
+                                                         round>
+                                                         {[ $t(product.lbtn_text) ]}
+                                                     </n-button>
+                                                 </template>
+                                                 <n-button style="color:#ffffff;" color="#e34548" tag="a"
+                                                     v-bind:href="product.rbtn_href" target="_blank" round>
+                                                     {[ $t(product.rbtn_text) ]}
+                                                 </n-button>
+                                             </n-button-group>
+                                         </n-card>
                                      </n-grid-item>
                                  </n-grid>
                              </n-layout>
