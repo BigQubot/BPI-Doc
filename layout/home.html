@@ -20,9 +20,6 @@
  <div id="products">
      <n-card class="head_background" hoverable>
          <n-grid cols="9" item-responsive responsive="screen">
-                 <n-grid-item span="0 s:0 m:0 l:9" style="margin-left: 6%; margin-right: 6%; margin-bottom: 1%; ">
-                 </n-grid-item>
-
              <n-grid-item span="9 s:9 m:9 l:9" >
                  <n-card size="small" style="margin: auto; display: flex; min-height: fit-content; " hoverable>
                      <n-tabs type="line" justify-content="space-evenly"
@@ -33,7 +30,7 @@
                              <n-layout has-sider position="absolute" style="min-height: 700px; position: relative"
                                  class="news_background" hoverable>
                                  <n-grid cols="8" item-responsive responsive="screen">
-                                     <n-grid-item span="10 s:5 m:2 l:2" style="padding: 4%;" v-for="product in value">
+                                     <n-grid-item span="8 s:5 m:2 l:2" style="padding: 4%;" v-for="product in value">
                                          <n-card v-bind:title="product.title" size="small" hoverable>
                                              <img class="normal-img" v-bind:src="product.src">
                                              <n-button-group style="margin: 5px; font-size: 16px;">
@@ -97,7 +94,7 @@
     const datas = {
         'products': {
             'zh': {
-                "MAIX-I & Zero": [
+                "BPI-Steam Wiki": [
                     {
                         title: "MicroPython 边缘 AI 开发",
                         src: "/static/home/maixpy.jpeg",
@@ -109,7 +106,7 @@
                 ],
             },
             'en': {
-                "MAIX-I & Zero": [
+                "BPI-Steam Wiki": [
                     {
                         title: "MicroPython AIOT",
                         src: "/static/home/maixpy.jpeg",
