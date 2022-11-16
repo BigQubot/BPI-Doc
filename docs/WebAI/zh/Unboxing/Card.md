@@ -32,7 +32,7 @@ F.万用遥控器控制登月小车
 
 1.使用Web:AI开发板进入QRcode模式
 
->关于如何进入QRcode模式，欢迎参考：[操作模式：QRcode模式教学](https://md.kingkit.codes/s/1lgh1vuQ_#QRcode-%E6%A8%A1%E5%BC%8F)。
+>关于如何进入QRcode模式，欢迎参考：[操作模式：QRcode模式教学](https://bpi-steam.com/WebAI/zh/Unboxing/Mode.html#QRcode%E6%A8%A1%E5%BC%8F)。
 
 2.拿出教学示例卡，翻到背面的QRcode。
 
@@ -52,7 +52,7 @@ F.万用遥控器控制登月小车
 
 ![](../assets/images/upload_fc87a0d0fbc684b427ac1f6884f322fe.png)
 
->-关于人脸追踪，欢迎参考：[人脸追踪积木](https://md.kingkit.codes/s/TbBXXg7Jb)。
+>-关于人脸追踪，欢迎参考：[人脸追踪积木](https://bpi-steam.com/WebAI/zh/Programming/Advanced/Face.html)。
 
 ## B.语音互动
 
@@ -76,7 +76,7 @@ Web:AI开发板开启摄像镜头，对着自己拍一张照片并显示在LCD�
 
 梦想成为科技教具的Web:AI会自我介绍给大家听!
 
->-关于语音辨识，欢迎参考：[语音辨识积木](https://md.kingkit.codes/s/jIW79tnup)。
+>-关于语音辨识，欢迎参考：[语音辨识积木](https://bpi-steam.com/WebAI/zh/Programming/Advanced/Speech.html)。
 
 ## C.小怪兽追踪
 
@@ -90,9 +90,9 @@ Web:AI开发板开启摄像镜头，对着自己拍一张照片并显示在LCD�
 
 若是要再次使用，就需要将开发板恢复固件。
 
->-关于物件追踪，欢迎参考：[四、训练图像分类、物件追踪](https://md.kingkit.codes/s/mopjgVaZU)。
+>-关于物件追踪，欢迎参考：[四、训练图像分类、物件追踪](https://bpi-steam.com/WebAI/zh/Programming/Advanced/Object.html)。
 
->-关于恢复固件，欢迎参考：[初始化设定(第一次使用请看这里)](https://md.kingkit.codes/s/AO_XqPykW)。
+>-关于恢复固件，欢迎参考：[初始化设定 ( 第一次使用请看这里 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)。
 
 ## D.口罩侦测
 
@@ -104,7 +104,7 @@ Web:AI开发板开启摄像镜头，对着自己拍一张照片并显示在LCD�
 
 ![](../assets/images/upload_49f5f3bf9c0c9758d2afc71cdbbbd849.png)
 
->-关于口罩侦测，欢迎参考：[人脸追踪积木](https://md.kingkit.codes/s/TbBXXg7Jb)。
+>-关于口罩侦测，欢迎参考：[人脸追踪积木](https://bpi-steam.com/WebAI/zh/Programming/Advanced/Face.html)。
 
 ## E.登月小车追踪小怪兽
 

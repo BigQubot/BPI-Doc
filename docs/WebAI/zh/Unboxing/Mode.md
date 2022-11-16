@@ -4,7 +4,7 @@
 
 而使用Web:AI开发板时，有一些操作方式需要先了解，清楚之后可以尽情使用Web:AI了!
 
->关于Wi-Fi设定及固件更新，欢迎参考：[初始化设定(第一次使用请看这里)](https://md.kingkit.codes/s/AO_XqPykW)。
+>关于Wi-Fi设定及固件更新，欢迎参考：[初始化设定 ( 第一次使用请看这里 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)。
 
 ## 开机
 
@@ -62,9 +62,9 @@
 
 ![](../assets/images/upload_80075f62e13de57602897782d53ce31e.png)
 
->- [初始化设定(第一次使用请看这里)](https://md.kingkit.codes/s/AO_XqPykW)
+>- [初始化设定 ( 第一次使用请看这里 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)
 
->- [教学示例卡使用教学](https://md.kingkit.codes/s/TASyDY-Eo)
+>- [教学示例使用教学](https://bpi-steam.com/WebAI/zh/Unboxing/Card.html)
 
 ##恢复预设状态
 
@@ -92,4 +92,4 @@
 
 4.开发板重启，完成恢复预设状态。
 
->恢复预设状态之后的设定，请参考：[初始化设定(第一次使用请看这里)](https://md.kingkit.codes/s/AO_XqPykW)。
+>恢复预设状态之后的设定，请参考：[初始化设定 ( 第一次使用请看这里 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)。

@@ -100,7 +100,7 @@ Web:AI图形编程平台的操作界面分成下列几个功能区：
 
 ![](../assets/images/upload_5e9768158864380f4612cc2516820864.jpg)
 
->关于开发板的Device ID，欢迎参考：[初始化设定(第一次使用请看这里)](https://md.kingkit.codes/s/AO_XqPykW)。
+>关于开发板的Device ID，欢迎参考：[初始化设定 ( 第一次使用请看这里 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)。
 
 4.从左侧的**积木清单**中找到「Web:AI」，点击下方的「LCD屏幕」。
 
@@ -119,5 +119,3 @@ Web:AI图形编程平台的操作界面分成下列几个功能区：
 ![](../assets/images/upload_509900dc9341e45fa477c4dbbf2ed5fd.png)
 
 8.成功执行第一支程序后，就可以开始体验后续的更多更强大的Web:AI程序了!
-
->关于更多的程序教学，欢迎参考：[三、Web:AI图形编程](https://md.kingkit.codes/s/X4vMmbtp_)。

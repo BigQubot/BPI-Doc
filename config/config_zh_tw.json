@@ -1,52 +1,62 @@
 {
-    "class": "language_zh_tw",
+    "locale": "zh_tw",
     "navbar": {
-        "title": "BPI Steam",
+        "title": "wiki",
         "logo": {
-            "alt": "BPI logo",
+            "alt": "Banana Pi logo",
             "src": "/static/image/logo.png"
         },
-        "home_url": "/",
+        "home_url": "/zh_tw/",
         "items": [
             {
-                "url": "/zh-tw/",
+                "url": "/zh_tw/",
                 "label": "首頁",
                 "position": "left"
             },
             {
                 "id": "WebBit",
-                "label": "WebBit:",
+                "label": "WebBit",
                 "position": "left",
                 "items": [
                     {
                         "id": "Doc",
-                        "url": "/WebBit_doc/zh-tw/",
+                        "url": "/WebBit_doc/zh_tw/",
                         "label": "使用手冊"
                     },
                     {
                         "id": "Dev",
-                        "url": "/WebBit_dev/zh-tw/",
+                        "url": "/WebBit_dev/zh_tw/",
                         "label": "開發手冊"
                     }
                 ]
             },
             {
-                "url": "/WebAI/zh-tw/",
+                "url": "/WebAI/zh_tw/",
                 "label": "WebAI",
                 "position": "left"
             },
             {
-                "url": "/Q-Car/zh-tw/",
+                "url": "/Leaf_S3_doc/zh_tw/",
+                "label": "Leaf-S3",
+                "position": "left"
+            },
+            {
+                "url": "/PicoW_S3_doc/zh_tw/",
+                "label": "PicoW-S3",
+                "position": "left"
+            },
+            {
+                "url": "/Q-Car/zh_tw/",
                 "label": "Q-Car",
                 "position": "left"
             },
             {
-                "url": "/Triode-Car/zh-tw/",
+                "url": "/Triode-Car/zh_tw/",
                 "label": "Triode-Car",
                 "position": "left"
             },
             {
-                "url": "/About/zh-tw/",
+                "url": "/About/zh_tw/",
                 "label": "關於我們",
                 "position": "left"
             },
@@ -54,30 +64,14 @@
                 "id": "language",
                 "label": "language: ",
                 "position": "right",
-                "items": [
-                    {
-                        "id": "zh",
-                        "url": "/",
-                        "label": "简体中文"
-                    },
-                    {
-                        "id": "zh-tw",
-                        "url": "/zh-tw/",
-                        "label": "繁體中文"
-                    },
-                    {
-                        "id": "en",
-                        "url": "/en/",
-                        "label": "English"
-                    }
-                ]
+                "type": "language"
             }
         ]
     },
     "footer":{
         "top":[
             {
-                "label": "链接",
+                "label": "鏈接",
                 "items": [
                     {
                         "label": "Banana Pi",
@@ -91,7 +85,7 @@
                     },
                     {
                         "label": "Webduino",
-                        "url": "https://webduino.io/",
+                        "url": "https://webduino.com.cn/site/zh_cn/index.html",
                         "target": "_blank"
                     },
                     {
@@ -136,8 +130,8 @@
         ],
         "bottom": [
             {
-                "label": "Copyright © 2021 Banana Pi",
-                "url": "https://www.banana-pi.org.cn",
+                "label": "Copyright © 2022 Banana Pi",
+                "url": "https://bpi-steam.com/",
                 "target": "_blank"
             }
         ]
@@ -146,13 +140,14 @@
         "teedoc-plugin-search":{
             "config": {
                 "search_hint": "搜索",
-                "input_hint": "输入关键词，多关键词空格隔开",
-                "loading_hint": "正在加载，请稍候。。。",
-                "download_err_hint": "下载文件失败，请刷新重试或检查网络",
-                "other_docs_result_hint": "来自其它文档的结果",
-                "curr_doc_result_hint": "当前文档搜索结果"
+                "input_hint": "輸入關鍵詞，多關鍵詞空格隔開",
+                "loading_hint": "正在加載，請稍候。。。",
+                "download_err_hint": "下載文件失敗，請刷新重試或檢查網絡",
+                "other_docs_result_hint": "來自其它文檔的結果",
+                "curr_doc_result_hint": "當前文檔搜索結果"
             }
         }
+        
     },
-    "show_source": "编辑本页"
+    "show_source": "編輯本頁"
 }

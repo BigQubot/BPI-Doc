@@ -137,8 +137,8 @@ Web:AI 影像辨识分为**影像分类** 以及**物件追踪**，可以使用W
 在图形编程平台中，可以分别使用影像分类和物件追踪积木，来达到不同的影像辨识功能。
 
 > 有关更详细积木的使用，欢迎参考：
->- [影像分类](https://md.kingkit.codes/s/XsGqYu8lP)
->- [物件追踪](https://md.kingkit.codes/s/BrL3wxxd_)
+>- [影像分类](https://bpi-steam.com/WebAI/zh/Programming/Advanced/Image.html)
+>- [物件追踪](https://bpi-steam.com/WebAI/zh/Programming/Advanced/Object.html)
 
 ### 影像分类
 

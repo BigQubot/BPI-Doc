@@ -1,0 +1,1 @@
+During construction, the specific routine can be [refer to here](https://github.com/BPI-STEAM/BPI-Leaf-S3-Doc/tree/main/Example/MicroPython-zh/02.Use_Peripherals)

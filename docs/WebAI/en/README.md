@@ -1,74 +1,28 @@
----
-title: open source static doc site generator
-keywords: teedoc, markdown, jupyter notebook, html, document generation, alternative gitbook, website generation, static website, static blog
-desc: teedoc, open source static doc site generator, convert markdown or jupyter notbook into html static web pages, used for personal or corporate website building, blog building, database building, wiki, etc.
----
+# Web:AI Introduction
+Web:AI is a entry-level development board made for learning basic AI features, such as, face tracking, image recognition, object tracking, speech recognition, QR Code scanning, and more. It packs an AI chip K210 and Wi-Fi chip ESP8285 on the board. By using the Webduino Education Platform, Learning AIoT has never been easier.
 
+**1. Product Information**
+Inside the package includes the Web:AI board, an external speaker, USB connector, and a couple of picture cards. 
 
-Official website: [teedoc.neucrack.com](https://teedoc.neucrack.com/) or [teedoc.github.io](https://teedoc.github.io/)
-Source file of this document: [github.com/teedoc/teedoc.github.io](https://github.com/teedoc/teedoc.github.io)
-Source code: [https://github.com/teedoc/teedoc](https://github.com/teedoc/teedoc) Welcome star
+* Web:AI Board
+* Micro-USB Cable
+* Speaker
+* Educational Picture Cards (Some cards require speaker and mooncar to work)
+* Little monster cards
 
-Convert documents in `Markdown` or `Jupyter Notebook` format into `HTML` static web pages
+**2. Web:AI Development Board**
+**2.1 Hardware Specification**
+The Web:AI Board is equipped with a camera and an LCD screen for interactive dynamic video; an internal microphone and on-board speaker adapter for sound recording, sound playback, and sound interaction; A pair of connecting finger similar to the Web:Bit, made compatable to it's peripherals, such as, sensors, controllers.
 
-`teedoc` can be used in the following scenarios:
-* Build a document website, and it’s best to support multiple documents and custom pages
-* Build a `WiKi` website
-* Build a personal or corporate knowledge base
-* Build a personal or corporate website
-* Blog
+* Size: 51.6 x 67mm
+* LCD Screen: 8 bit MCU 2.3", 320x240 resolution
+* Power:
+    * Micro-USB (5VDC / 2A)
+    * ion battery socket (3.7 ~ 4.2V)
+* CPU: 400 mhz dual-core RISC-V 64bit, includes float point unit, and neural engine
+* Camera: 500 megapixels
+* Expansion Slots: Edge connector(compatible with Web:Bit and Micro:bit peripherals), TF card, speaker, battery
+* Buttons: L, R, and reset button
+* Wi-Fi: ESP8285 moduel, supports 2.4G 802.11.b/g/n connection
+* Sound: Internal MEMS microphone, speaker output up to 3W.
 
-
-
-
-## Features
-
-- [x] Simple to use, cross-platform, only dependent on `Python3`
-- [x] No database required, all static pages of the website
-- [x] The deployment is simple, the generated website is a fully static page, which can be directly copied to the server or uploaded to a third party organization for deployment
-- [x] Easy to write, using Markdown syntax
-- [x] Jupyter notebook support
-- [x] HTML support, you can directly use HTML to write pages, with great freedom
-- [x] Multi-document support
-- [x] Plug-in support
-- [x] Multi-theme support (implemented by plug-in)
-- [x] Control the style accurate to the page through css (implemented by customizing the id and class of each page)
-- [x] Multi-level directory support
-- [x] Multi-language support (manual translation) (Internationalization/i18n)
-- [ ] Multilingual support (automatic translation)
-- [x] Multi-version support (implementation method is the same as multi-language)
-- [x] Search support
-- [x] SEO friendly
-- [x] Real-time preview of changes
-- [x] Multi-threaded construction, faster construction speed
-- [x] Blog support
-- [x] Switch from gitbook is easy, just config `route` and convert `SUMMARY.md` by `summary2yaml` command
-
-## Demo
-
-[This website](https://teedoc.github.io/) is generated using `teedoc`, what you see now is what the generated website looks like.
-
-In addition, there are other websites that use `teedoc`, please see [here](./usage/sites.md) for details
-
-
-## Similar tools
-
-In fact, there are many tools of this type, but each one is slightly different. Just choose one according to your needs.
-
-If you have choice difficulties, you are recommended to use teedoc if you meet some of the following conditions:
-* Use `Jupyter notebook` to write documents or code? Decisively choose teedoc
-* Does the function meet your needs?
-* Does the interface meet your aesthetics (you can customize css, or change the theme plug-in)
-* Familiar with Python? Plug-ins and functions can be customized at any time
-
-Other similar tools:
-* docusaurus: The UI layout of teedoc is almost similar to it, but it uses vue to write, teedoc is native js, if you use vue, you can consider this
-* gitbook: a tool that used to be very useful, but it is no longer maintained by the government, and it is turned to commercial. It is not recommended to use it
-* docsify: Only one page is needed. Markdown is rendered in the browser instead of pre-rendered into HTML. The advantage is that it is lightweight, but SEO is not friendly. You can use its SSR function, written in nodejs
-* readthedocs: A tool used by many open source projects. Like gitbook, it also has a website service. You can start writing documents after registering and logging in, or you can download the software to generate the website yourself, which is friendly to the RST format.
-
-
-## Some usage suggestions
-
-* Add `Generate with teedoc` in footer to help more people discover teedoc and promote the growth of the project
-* Use the template project to start a new document project, you can run it first, and then modify it according to your own needs, so that you can get started faster

@@ -1,29 +1,4 @@
 {
     "import": "config_zh",
-    "navbar": {
-        "items": [
-            {
-                "id": "language",
-                "label": "language: ",
-                "position": "right",
-                "items": [
-                    {
-                        "id": "zh",
-                        "url": "/WebAI/zh/",
-                        "label": "简体中文"
-                    },
-                    {
-                        "id": "zh-tw",
-                        "url": "/WebAI/zh-tw/",
-                        "label": "繁體中文"
-                    },
-                    {
-                        "id": "en",
-                        "url": "/WebAI/en/",
-                        "label": "English"
-                    }
-                ]
-            }
-        ]
-    }
+    "name": "WebAI"
 }

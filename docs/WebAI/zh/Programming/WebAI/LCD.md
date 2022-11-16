@@ -98,7 +98,7 @@ Web:AI 内建一块 2.3 吋 LCD 屏幕，可以使用积木配合传感器、控
 
 ![](../../assets/images/upload_0c373ab6bb919c3edab14ac253040cfb.png)
 
-> 关于照相画面的更多应用变化，可以参考：[照相画面](https://md.kingkit.codes/s/3KhHmkwBd#%E7%85%A7%E7%9B%B8%E7%95%AB %E9%9D%A2)。
+> 关于照相画面的更多应用变化，可以参考：[照相画面](https://bpi-steam.com/WebAI/zh/Programming/WebAI/LCD.html#%E7%85%A7%E7%9B%B8%E7%94%BB%E9%9D%A2)。
 
 ### 示例：改变表情
 

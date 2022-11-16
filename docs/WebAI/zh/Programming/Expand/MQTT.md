@@ -4,7 +4,6 @@
 
 Web:AI 的网络广播功能，不仅能让 Web:AI 与 Web:AI 开发板彼此信息互动，更可以和 Webduino 的其它平台之间连动。实现一对多、多对一、虚实互动、远距广播...等多样化的操控情境，通过广播功能的实现，便能将物联网的应用发挥到极致。
 
-> 有关 Web:Bit 教育版的积木操作，可以参考：[Web:Bit 教学手册](https://webbit.webduino.io/tutorials/doc/zh-tw/education/index.html)
 
 ## 发送广播讯息
 

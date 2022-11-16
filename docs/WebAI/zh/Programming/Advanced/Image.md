@@ -8,7 +8,7 @@ Web:AI 影像辨识分为**影像分类** 以及**物件追踪**，可以使用W
 
 ## 下载影像分类模型
 
-在使用影像分类之前，需要先训练好模型，并下载至开发板中，训练流程欢迎参考：[三、影像训练](https://md.kingkit.codes/s/mopjgVaZU)。
+在使用影像分类之前，需要先训练好模型，并下载至开发板中，训练流程欢迎参考：[三、影像训练](https://bpi-steam.com/WebAI/zh/Train/Train.html)。
 
 按照步骤下载后，就可以使用「影像分类」积木进行操作了。
 
@@ -84,7 +84,7 @@ Web:AI 影像辨识分为**影像分类** 以及**物件追踪**，可以使用W
 
 1. 先从 [Webduino 影像训练平台](https://vision.webduino.io/) 下载要进行影像训练的模型，如示例是使用模型「monster」。
 
-    > 有关如何训练影像模型，欢迎参考：[三、影像训练](https://md.kingkit.codes/s/mopjgVaZU)。
+    > 有关如何训练影像模型，欢迎参考：[三、影像训练](https://bpi-steam.com/WebAI/zh/Train/Train.html)。
 
     ![](../../assets/images/upload_05e9f1e0bdcac076f5d9976ce9526294.jpg)
 

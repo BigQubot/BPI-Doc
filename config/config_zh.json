@@ -1,9 +1,9 @@
 {
-    "class": "language_zh",
+    "locale": "zh_CN",
     "navbar": {
-        "title": "BPI Steam",
+        "title": "wiki",
         "logo": {
-            "alt": "BPI logo",
+            "alt": "Banana Pi logo",
             "src": "/static/image/logo.png"
         },
         "home_url": "/",
@@ -15,7 +15,7 @@
             },
             {
                 "id": "WebBit",
-                "label": "WebBit:",
+                "label": "WebBit",
                 "position": "left",
                 "items": [
                     {
@@ -36,17 +36,27 @@
                 "position": "left"
             },
             {
-                "url": "/Q-Car/",
+                "url": "/Leaf_S3_doc/zh/",
+                "label": "Leaf-S3",
+                "position": "left"
+            },
+            {
+                "url": "/PicoW_S3_doc/zh/",
+                "label": "PicoW-S3",
+                "position": "left"
+            },
+            {
+                "url": "/Q-Car/zh/",
                 "label": "Q-Car",
                 "position": "left"
             },
             {
-                "url": "/Triode-Car/",
+                "url": "/Triode-Car/zh/",
                 "label": "Triode-Car",
                 "position": "left"
             },
             {
-                "url": "/About/",
+                "url": "/About/zh/",
                 "label": "关于我们",
                 "position": "left"
             },
@@ -54,23 +64,7 @@
                 "id": "language",
                 "label": "language: ",
                 "position": "right",
-                "items": [
-                    {
-                        "id": "zh",
-                        "url": "/",
-                        "label": "简体中文"
-                    },
-                    {
-                        "id": "zh-tw",
-                        "url": "/zh-tw/",
-                        "label": "繁體中文"
-                    },
-                    {
-                        "id": "en",
-                        "url": "/en/",
-                        "label": "English"
-                    }
-                ]
+                "type": "language"
             }
         ]
     },
@@ -136,8 +130,8 @@
         ],
         "bottom": [
             {
-                "label": "Copyright © 2021 Banana Pi",
-                "url": "https://www.banana-pi.org.cn",
+                "label": "Copyright © 2022 Banana Pi",
+                "url": "https://bpi-steam.com/",
                 "target": "_blank"
             }
         ]
@@ -153,6 +147,7 @@
                 "curr_doc_result_hint": "当前文档搜索结果"
             }
         }
+        
     },
     "show_source": "编辑本页"
 }

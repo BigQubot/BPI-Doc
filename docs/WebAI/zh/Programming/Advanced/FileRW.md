@@ -4,7 +4,7 @@
 
 Web:AI 文件读写功能能够将镜头拍摄的图片存入，并通过 LCD 屏幕显示的功能将储存的图片展示出来。通过文件读写功能，可以让 Web:AI 开发板实现拍照等影像应用。
 
-> 更多相关应用，可以参考：[LCD 显示图片](https://md.kingkit.codes/s/3KhHmkwBd#LCD-%E9%A1%AF%E7%A4%BA%E5%9C%96% E7%89%87)。
+> 更多相关应用，可以参考：[LCD 显示图片](https://bpi-steam.com/WebAI/zh/Programming/WebAI/LCD.html#LCD-%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87)。
 
 ## 写入文件
 

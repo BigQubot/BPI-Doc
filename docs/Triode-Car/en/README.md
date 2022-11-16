@@ -1,52 +1,19 @@
-Develop teedoc
-===========
+# Triode-Car
+The Banana Pi BPI-TriodeCar is a product designed for education on entry-level engineering. Supporting both the BBC Micro:bit and Web:bit(BPI:bit), the TrideCar can also be equipped with peripherals such as, buzzer, and ultrasonic sensor.
 
-
-## Get the source code
-
-```
-git clone https://github.com/Neutree/teedoc
-```
-
-## Installation Environment
-
-```
-sudo apt install python3 python3-pip
-cd teedoc
-pip3 install -r requirements.txt
-```
+![](assets/Triode-Car_webbit&microbit.png)
 
 
 
-## Run the source code
+## Key Features
 
-* Install plugin
+*Two switchable modes: a comparator(LM393) or with Micro:bit/ Web:bit.
 
-```
-python3 teedoc/teedoc_main.py -p examples/teedoc_site install
-```
+*Supports MakeCode, Webduino Blockly, and MicroPython programming.
 
-* Run
+*Provides soldering area for more peripherals extension.
+*I2C Connector(3.3V) onboard.
 
-```
-python3 teedoc/teedoc_main.py -p examples/teedoc_site build
-python3 teedoc/teedoc_main.py -p examples/teedoc_site serve
-```
+*Screwholes for LEGO blocks extension.
 
-* Plug-in import issues and update debugging issues
-
-Set the local path of the plugin in `site_config.json`, for example:
-```json
-"teedoc-plugin-markdown-parser":{
-             "from": "../../plugins/teedoc-plugin-markdown-parser"
-         }
-```
-Then at runtime, the package will be imported from this path first (add this path to `sys.path` and then import) instead of the system path, which can ensure that the modification takes effect in time
-
-
-
-
-## Debug
-
-To debug in vscode, you can directly debug the single file `teedoc_debug.py`
-
+*Line Tracking.

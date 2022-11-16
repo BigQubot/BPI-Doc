@@ -1,6 +1,6 @@
-# BPI-STEAM 用户文档
+# WebBit 使用手册
 
-BPI-STEAM 是专注于软硬件开源技术的开源组织，属于[Banana-Pi](http://www.banana-pi.org)的分支，从 2018 年起推出 BPI-BIT 开发板，随之推出 Webduino 、 MicroPython 、 Arduino 等开源技术支持，通过用户文档能够让用户轻松入门 BPI-STEAM 所提供的技术产品。
+BPI-STEAM 是专注于软硬件开源技术的开源组织，属于[Banana-Pi](http://www.banana-pi.org)的分支，从 2018 年起推出 BPI-BIT 开发板，随之推出 Webduino 、 MicroPython 、 Arduino 等开源技术支持，通过使用手册能够让用户轻松入门 BPI-STEAM 所提供的技术产品。
 
 >本文档托管于属于[BPI-STEAM](https://github.com/BPI-STEAM)开源组织。
 

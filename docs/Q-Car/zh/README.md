@@ -1,59 +1,23 @@
-开发 teedoc
-===========
+# Q-Car
+BPI Steam 的 Q-Car 是一款专注于教育用途的机器人，集成了各式各样的设备，适用场景更加丰富。
 
+Q-Car 同时兼容web:bit和micro:bit两款开发板。从图形编程到较复杂的代码编程，从简单电机控制到多种人机交互综合应用，Q-Car 提供的丰富设备与高扩展性能持续满足使用者在学习中对实机验证的需求。
 
-## 获得源码
+![](assets/Q-Car_Front.png)
 
-```
-git clone https://github.com/Neutree/teedoc
-```
+## 关键特性
 
-## 安装环境
+* 支持MakeCode图形化编程(与micro:bit配合)，支持Webduino图形化编程（与web:bit配合）及MicroPython编程（micro:bit 与web:bit）
 
-```
-sudo apt install python3 python3-pip
-cd teedoc
-pip3 install -r requirements.txt
-```
+* 机身小巧，整体性强
 
+* N20微型减速电机
 
+* HC-SR04超声波测距模块
 
-## 运行源码
+* 红外发射器、红外接收器、巡线传感器、测速传感器、可编程RGB氛围灯、蜂鸣器
 
-* 安装插件
+* I2C接口（支持3.3V和5V切换）、超声波接口、舵机接口、排针扩展口
 
-```
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site install
-```
-
-* 运行
-
-```
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site build
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site serve
-```
-
-* 插件导入问题和更新调试问题
-
-在`site_config.json`中设置插件的本地路径，比如：
-```json
-"teedoc-plugin-markdown-parser":{
-            "from": "../../plugins/teedoc-plugin-markdown-parser"
-        }
-```
-然后在运行时将会优先从这个路径导入包（将这个路径加入`sys.path`，然后导入），而不是系统路径，可以保证修改及时生效
-
-
-
-
-## 调试
-
-在 vscode 中调试，直接调试单文件 `teedoc_debug.py` 文件即可
-
-
-
-
-
-
-
+* 兼容乐高积木的扩展螺孔
 

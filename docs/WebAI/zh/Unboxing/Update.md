@@ -16,7 +16,7 @@ Web:AI开发板的固件中使用了2种芯片，分别是主芯片(K210)和Wi-F
 
 ## 通过Web:AI安装版进行固件更新
 
-1.首先下载[**Web:AI安装版**](https://drive.google.com/file/d/1m4qGyWGae-2yytYrSorrJKaP-XBBarHR/view)。
+1.首先下载[Web:AI安装版](https://drive.google.com/file/d/1m4qGyWGae-2yytYrSorrJKaP-XBBarHR/view)。
 
 2.下载后点击执行，安装完成后就可以启动Web:AI安装版了。
 
@@ -42,4 +42,4 @@ Web:AI开发板的固件中使用了2种芯片，分别是主芯片(K210)和Wi-F
 
 ![](../assets/images/upload_cffca67e2ed07221bf1445851c16c967.png)
 
->完成固件更新后，欢迎参考[初始化设定(第一次使用请看这里)](https://md.kingkit.codes/s/AO_XqPykW)来完成Wi-Fi设定。
+>完成固件更新后，欢迎参考[初始化设定 ( 第一次使用请看这里 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)来完成Wi-Fi设定。

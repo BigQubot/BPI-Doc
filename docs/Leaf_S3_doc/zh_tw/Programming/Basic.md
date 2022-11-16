@@ -1,0 +1,1 @@
+施工中，具體例程可以[參考這裡](https://github.com/BPI-STEAM/BPI-Leaf-S3-Doc/tree/main/Example/MicroPython-zh/02.Use_Peripherals)
