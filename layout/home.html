@@ -32,7 +32,7 @@
                              v-for="(value, key) in datas['products'][$t('language')]">
                              <n-layout has-sider position="absolute" style="min-height: 700px; position: relative"
                                  class="news_background" hoverable>
-                                 <n-grid cols="10" item-responsive responsive="screen">
+                                 <n-grid cols="8" item-responsive responsive="screen">
                                      <n-grid-item span="10 s:5 m:2 l:2" style="padding: 4%;" v-for="product in value">
                                          <n-card v-bind:title="product.title" size="small" hoverable>
                                              <img class="normal-img" v-bind:src="product.src">
