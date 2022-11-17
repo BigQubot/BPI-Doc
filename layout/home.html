@@ -21,15 +21,14 @@
     <n-card class="head_background" hoverable>
         <n-grid cols="9" item-responsive responsive="screen">
             <n-grid-item span="0 s:0 m:0 l:9" style="margin-left: 6%; margin-right: 6%; margin-bottom: 1%; ">
-                <n-card size="small" style="margin: auto; display: flex; height: 740px; " hoverable>
+                <n-card size="small" style="margin: auto; display: flex; height: 580; " hoverable>
                     <n-tabs type="line" trigger='hover' justify-content="space-evenly">
                         <template v-if="$t('language') === 'zh'">
-                            <n-tab-pane name="近期热点事件">
                                 <n-card style="margin: auto; display: fit-content; max-height: fit-content;">
                                     <n-carousel effect="card" class="base_background"
                                         prev-slide-style="transform: translateX(-150%) translateZ(-1200px);"
                                         next-slide-style="transform: translateX(50%) translateZ(-1200px);"
-                                        :show-dots="false" autoplay draggable style="height: 620px">
+                                        :show-dots="false" autoplay draggable style="height: 460px">
                                         <!-- <n-carousel-item :style="{ width: '80%' }">
                                             <n-card size="small" hoverable>
                                                 <img class="carousel-img" src="https://sipeed.com/static/images/banner-1.jpg">
@@ -51,7 +50,7 @@
                                             <n-button-group style="margin: 5px; font-size: 16px;">
                                                 <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
                                                     type="error" ghost>
-                                                    See more about BPI-Leaf-S3
+                                                    查看更多关于BPI-Bit-S3的信息
                                                 </n-button>
                                                 <n-button size="large" style="color:#ffffff; " color="#6391ed"
                                                     href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
@@ -70,7 +69,7 @@
                                             <n-button-group style="margin: 5px; font-size: 16px;">
                                                 <n-button size="large" href="/Pico_S3_doc/zh/" target="_blank" tag="a"
                                                     type="error" ghost>
-                                                    See more about BPI-Leaf-S3
+                                                    查看更多关于BPI-Bit-S3的信息
                                                 </n-button>
                                                 <n-button size="large" style="color:#ffffff; " color="#6391ed"
                                                     href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
@@ -89,7 +88,7 @@
                                             <n-button-group style="margin: 5px; font-size: 16px;">
                                                 <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
                                                     type="error" ghost>
-                                                    See more about BPI-Bit-S3
+                                                    查看更多关于BPI-Bit-S3的信息
                                                 </n-button>
                                                 <n-button size="large" style="color:#ffffff; " color="#6391ed"
                                                     href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
@@ -102,15 +101,13 @@
                                 </n-carousel-item>
                                     </n-carousel>
                                 </n-card>
-                            </n-tab-pane>
                         </template>
                         <template v-if="$t('language') === 'zh_tw'">
-                            <n-tab-pane name="近期热点事件">
                                 <n-card style="margin: auto; display: fit-content; max-height: fit-content;">
                                     <n-carousel effect="card" class="base_background"
                                         prev-slide-style="transform: translateX(-150%) translateZ(-1200px);"
                                         next-slide-style="transform: translateX(50%) translateZ(-1200px);"
-                                        :show-dots="false" autoplay draggable style="height: 620px">
+                                        :show-dots="false" autoplay draggable style="height: 460px">
                                         <!-- <n-carousel-item :style="{ width: '80%' }">
                                             <n-card size="small" hoverable>
                                                 <img class="carousel-img" src="https://sipeed.com/static/images/banner-1.jpg">
@@ -132,7 +129,7 @@
                                             <n-button-group style="margin: 5px; font-size: 16px;">
                                                 <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
                                                     type="error" ghost>
-                                                    See more about BPI-Leaf-S3
+                                                    查看更多關於 BPI-Leaf-S3 的信息
                                                 </n-button>
                                                 <n-button size="large" style="color:#ffffff; " color="#6391ed"
                                                     href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
@@ -151,7 +148,7 @@
                                             <n-button-group style="margin: 5px; font-size: 16px;">
                                                 <n-button size="large" href="/Pico_S3_doc/zh/" target="_blank" tag="a"
                                                     type="error" ghost>
-                                                    See more about BPI-Leaf-S3
+                                                    查看更多關於 BPI-Leaf-S3 的信息
                                                 </n-button>
                                                 <n-button size="large" style="color:#ffffff; " color="#6391ed"
                                                     href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
@@ -170,7 +167,7 @@
                                             <n-button-group style="margin: 5px; font-size: 16px;">
                                                 <n-button size="large" href="/Leaf_S3_doc/zh/" target="_blank" tag="a"
                                                     type="error" ghost>
-                                                    See more about BPI-Bit-S3
+                                                    查看更多關於 BPI-Leaf-S3 的信息
                                                 </n-button>
                                                 <n-button size="large" style="color:#ffffff; " color="#6391ed"
                                                     href="https://item.taobao.com/item.htm?id=677287234553" tag="a"
@@ -183,15 +180,13 @@
                                 </n-carousel-item>
                                     </n-carousel>
                                 </n-card>
-                            </n-tab-pane>
                         </template>
                         <template v-else>
-                            <n-tab-pane name="Hot on sale">
                                 <n-card style="margin: auto; display: fit-content; max-height: fit-content;">
                                     <n-carousel effect="card" class="base_background"
                                         prev-slide-style="transform: translateX(-150%) translateZ(-1200px);"
                                         next-slide-style="transform: translateX(50%) translateZ(-1200px);"
-                                        :show-dots="false" autoplay draggable style="height: 620px">
+                                        :show-dots="false" autoplay draggable style="height: 460px">
                                         <n-carousel-item :style="{ width: '75%' }">
                                             <n-card size="small" hoverable>
                                                 <a href="/Leaf_S3_doc/zh/" target="_blank"><img class="carousel-img"
@@ -206,7 +201,7 @@
                                                         <n-button size="large" style="color:#ffffff; " color="#6391ed"
                                                             href="https://item.taobao.com/item.htm?id=677287234553"
                                                             tag="a" target="_blank" round>
-                                                            购买链接
+                                                            buy
                                                         </n-button>
                                                     </n-button-group>
                                                 </n-divider>
@@ -226,7 +221,7 @@
                                                         <n-button size="large" style="color:#ffffff; " color="#6391ed"
                                                             href="https://item.taobao.com/item.htm?id=677287234553"
                                                             tag="a" target="_blank" round>
-                                                            购买链接
+                                                            buy
                                                         </n-button>
                                                     </n-button-group>
                                                 </n-divider>
@@ -246,7 +241,7 @@
                                                         <n-button size="large" style="color:#ffffff; " color="#6391ed"
                                                             href="https://item.taobao.com/item.htm?id=677287234553"
                                                             tag="a" target="_blank" round>
-                                                            购买链接
+                                                            buy
                                                         </n-button>
                                                     </n-button-group>
                                                 </n-divider>
@@ -254,7 +249,6 @@
                                         </n-carousel-item>
                                     </n-carousel>
                                 </n-card>
-                            </n-tab-pane>
                         </template>
                     </n-tabs>
                 </n-card>
