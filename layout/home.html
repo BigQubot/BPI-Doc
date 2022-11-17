@@ -64,7 +64,7 @@
 
 </div>
 <script>
-    var pageLanguages = ["en", "zh", "zh_tw"] // languages user can select in pages
+    var pageLanguages = ["en", "zh_tw", "zh"] // languages user can select in pages
     ///////////////////// translate start /////////////////////
     const messages = {
         en: {
@@ -79,18 +79,6 @@
             btn_example: "demos",
             btn_gitte: "Gitee"
         },
-        zh: {
-            language: "zh",
-            btn_buy: "购买链接",
-            btn_eol: "售罄",
-            btn_docs: "使用文档",
-            btn_dev: "使用文档",
-            btn_detail: "产品资料",
-            btn_repo: "源码仓库",
-            btn_github: "Github",
-            btn_example: "示例代码",
-            btn_gitte: "Gitee",
-        },
         zh_tw: {
             language: "zh",
             btn_buy: "購買鏈接",
@@ -102,72 +90,24 @@
             btn_github: "Github",
             btn_example: "示例代碼",
             btn_gitte: "Gitee",
+        },
+        zh: {
+            language: "zh",
+            btn_buy: "购买链接",
+            btn_eol: "售罄",
+            btn_docs: "使用文档",
+            btn_dev: "使用文档",
+            btn_detail: "产品资料",
+            btn_repo: "源码仓库",
+            btn_github: "Github",
+            btn_example: "示例代码",
+            btn_gitte: "Gitee",
         }
     }
     ///////////////////// translate end /////////////////////
     ///////////////////// config start /////////////////////
     const datas = {
         'products': {
-            'zh': {
-                "BPI-Steam Wiki": [
-                    {
-                        title: "WebBit",
-                        src: "/static/image/Webduino_gif.gif",
-                        lbtn_text: "btn_docs",
-                        lbtn_href: "/WebBit_doc/zh/",
-                        rbtn_text: "btn_dev",
-                        rbtn_href: "/WebBit_dev/zh/",
-                    },
-                    {
-                        title: "WebBit",
-                        src: "/static/image/Webduino_gif.gif",
-                        lbtn_text: "btn_docs",
-                        lbtn_href: "/WebBit_doc/zh/",
-                        rbtn_text: "btn_dev",
-                        rbtn_href: "/WebBit_dev/zh/",
-                    },
-                    {
-                        title: "WebBit",
-                        src: "/static/image/Webduino_gif.gif",
-                        lbtn_text: "btn_docs",
-                        lbtn_href: "/WebBit_doc/zh/",
-                        rbtn_text: "btn_dev",
-                        rbtn_href: "/WebBit_dev/zh/",
-                    },
-                    {
-                        title: "WebAI",
-                        src: "/static/image/Webduino_gif.gif",
-                        lbtn_text: "btn_docs",
-                        lbtn_href: "/WebBit_doc/zh/",
-                        rbtn_text: "btn_dev",
-                        rbtn_href: "/WebBit_dev/zh/",
-                    },
-                    {
-                        title: "WebBit",
-                        src: "/static/image/Webduino_gif.gif",
-                        lbtn_text: "btn_docs",
-                        lbtn_href: "/WebBit_doc/zh/",
-                        rbtn_text: "btn_dev",
-                        rbtn_href: "/WebBit_dev/zh/",
-                    },
-                    {
-                        title: "WebBit",
-                        src: "/static/image/Webduino_gif.gif",
-                        lbtn_text: "btn_docs",
-                        lbtn_href: "/WebBit_doc/zh/",
-                        rbtn_text: "btn_dev",
-                        rbtn_href: "/WebBit_dev/zh/",
-                    },
-                    {
-                        title: "WebBit",
-                        src: "/static/image/Webduino_gif.gif",
-                        lbtn_text: "btn_docs",
-                        lbtn_href: "/WebBit_doc/zh/",
-                        rbtn_text: "btn_dev",
-                        rbtn_href: "/WebBit_dev/zh/",
-                    },
-                ],
-            },
             'zh_tw': {
                 "BPI-Steam Wiki": [
                     {
@@ -225,6 +165,66 @@
                         lbtn_href: "/WebBit_doc/zh_tw/",
                         rbtn_text: "btn_dev",
                         rbtn_href: "/WebBit_dev/zh_tw/",
+                    },
+                ],
+            },
+            'zh': {
+                "BPI-Steam Wiki": [
+                    {
+                        title: "WebBit",
+                        src: "/static/image/Webduino_gif.gif",
+                        lbtn_text: "btn_docs",
+                        lbtn_href: "/WebBit_doc/zh/",
+                        rbtn_text: "btn_dev",
+                        rbtn_href: "/WebBit_dev/zh/",
+                    },
+                    {
+                        title: "WebBit",
+                        src: "/static/image/Webduino_gif.gif",
+                        lbtn_text: "btn_docs",
+                        lbtn_href: "/WebBit_doc/zh/",
+                        rbtn_text: "btn_dev",
+                        rbtn_href: "/WebBit_dev/zh/",
+                    },
+                    {
+                        title: "WebBit",
+                        src: "/static/image/Webduino_gif.gif",
+                        lbtn_text: "btn_docs",
+                        lbtn_href: "/WebBit_doc/zh/",
+                        rbtn_text: "btn_dev",
+                        rbtn_href: "/WebBit_dev/zh/",
+                    },
+                    {
+                        title: "WebAI",
+                        src: "/static/image/Webduino_gif.gif",
+                        lbtn_text: "btn_docs",
+                        lbtn_href: "/WebBit_doc/zh/",
+                        rbtn_text: "btn_dev",
+                        rbtn_href: "/WebBit_dev/zh/",
+                    },
+                    {
+                        title: "WebBit",
+                        src: "/static/image/Webduino_gif.gif",
+                        lbtn_text: "btn_docs",
+                        lbtn_href: "/WebBit_doc/zh/",
+                        rbtn_text: "btn_dev",
+                        rbtn_href: "/WebBit_dev/zh/",
+                    },
+                    {
+                        title: "WebBit",
+                        src: "/static/image/Webduino_gif.gif",
+                        lbtn_text: "btn_docs",
+                        lbtn_href: "/WebBit_doc/zh/",
+                        rbtn_text: "btn_dev",
+                        rbtn_href: "/WebBit_dev/zh/",
+                    },
+                    {
+                        title: "WebBit",
+                        src: "/static/image/Webduino_gif.gif",
+                        lbtn_text: "btn_docs",
+                        lbtn_href: "/WebBit_doc/zh/",
+                        rbtn_text: "btn_dev",
+                        rbtn_href: "/WebBit_dev/zh/",
                     },
                 ],
             },
