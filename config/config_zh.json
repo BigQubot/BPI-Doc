@@ -9,7 +9,7 @@
         "home_url": "/",
         "items": [
             {
-                "url": "/",
+                "url": "/zh/",
                 "label": "首页",
                 "position": "left"
             },
@@ -19,25 +19,19 @@
                 "position": "left",
                 "items": [
                     {
-                        "id": "Bitv1",
-                        "label": "WebBit",
-                        "items": [
-                            {
-                                "id": "Doc",
-                                "url": "/WebBit_doc/zh/",
-                                "label": "使用手册"
-                            },
-                            {
-                                "id": "Dev",
-                                "url": "/WebBit_dev/zh/",
-                                "label": "开发手册"
-                            }
-                        ]
+                        "id": "BitDoc",
+                        "url": "/WebBit_doc/zh/",
+                        "label": "WebBit使用手册"
                     },
                     {
-                        "id": "Bitv2",
-                        "url": "/WebBit_V2_doc/zh/",
-                        "label": "WebBit V2"
+                        "id": "BitDev",
+                        "url": "/WebBit_dev/zh/",
+                        "label": "WebBit开发手册"
+                    },
+                    {
+                        "id": "BitV2",
+                        "url": "/WebBit_dev/zh/",
+                        "label": "WebBit V2使用手册"
                     }
                 ]
             },
@@ -52,19 +46,38 @@
                 "position": "left"
             },
             {
-                "url": "/PicoW_S3_doc/zh/",
-                "label": "PicoW-S3",
-                "position": "left"
+                "id": "Pico系列",
+                "label": "Pico",
+                "position": "left",
+                "items": [
+                    {
+                        "id": "Pico2040",
+                        "url": "/Pico_RP2040_doc/zh/",
+                        "label": "Pico-RP2040"
+                    },
+                    {
+                        "id": "PicoWS3",
+                        "url": "/PicoW_S3_doc/zh/",
+                        "label": "PicoW-S3"
+                    }
+                ]
             },
             {
-                "url": "/Q-Car/zh/",
-                "label": "Q-Car",
-                "position": "left"
-            },
-            {
-                "url": "/Triode-Car/zh/",
-                "label": "Triode-Car",
-                "position": "left"
+                "id": "Acces",
+                "label": "配件",
+                "position": "left",
+                "items": [
+                    {
+                        "id": "QCar",
+                        "url": "/Q-Car/zh/",
+                        "label": "Q-Car"
+                    },
+                    {
+                        "id": "TriodeCar",
+                        "url": "/Triode-Car/zh/",
+                        "label": "Triode-Car"
+                    }
+                ]
             },
             {
                 "url": "/About/zh/",
@@ -79,8 +92,8 @@
             }
         ]
     },
-    "footer": {
-        "top": [
+    "footer":{
+        "top":[
             {
                 "label": "链接",
                 "items": [
@@ -128,10 +141,10 @@
                         "label": "电话: +86 0755-26475332"
                     },
                     {
-                        "label": "商业支持: sales@sinovoip.com.cn (销售部）"
+                        "label": "商业支持: sales@banana-pi.com (销售部）"
                     },
                     {
-                        "label": "技术支持: support@sinovoip.com.cn (技术部）"
+                        "label": "技术支持: support@banana-pi.com (技术部）"
                     },
                     {
                         "label": "地址: 广东省松山湖高新技术产业开发区融易大厦 7 楼"
@@ -148,16 +161,17 @@
         ]
     },
     "plugins": {
-        "teedoc-plugin-search": {
-            "config": {
-                "search_hint": "搜索",
-                "input_hint": "输入关键词，多关键词空格隔开",
-                "loading_hint": "正在加载，请稍候。。。",
-                "download_err_hint": "下载文件失败，请刷新重试或检查网络",
-                "other_docs_result_hint": "来自其它文档的结果",
-                "curr_doc_result_hint": "当前文档搜索结果"
-            }
+        "teedoc-plugin-search":{
+        "config": {
+            "search_hint": "搜索",
+            "input_hint": "输入关键词，多关键词空格隔开",
+            "loading_hint": "正在加载，请稍候。。。",
+            "download_err_hint": "下载文件失败，请刷新重试或检查网络",
+            "other_docs_result_hint": "来自其它文档的结果",
+            "curr_doc_result_hint": "当前文档搜索结果"
         }
-    },
-    "show_source": "编辑本页"
+    }
+    
+},
+"show_source": "编辑本页"
 }

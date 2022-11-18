@@ -10,7 +10,7 @@
         "items": [
             {
                 "url": "/en/",
-                "label": "Home",
+                "label": "Homepage",
                 "position": "left"
             },
             {
@@ -19,14 +19,19 @@
                 "position": "left",
                 "items": [
                     {
-                        "id": "Doc",
+                        "id": "BitDoc",
                         "url": "/WebBit_doc/en/",
-                        "label": "Manual"
+                        "label": "WebBit User Manual"
                     },
                     {
-                        "id": "Dev",
+                        "id": "BitDev",
                         "url": "/WebBit_dev/en/",
-                        "label": "Development Manual"
+                        "label": "WebBit Development Manual"
+                    },
+                    {
+                        "id": "BitV2",
+                        "url": "/WebBit_dev/en/",
+                        "label": "WebBit V2 User Manual"
                     }
                 ]
             },
@@ -41,23 +46,42 @@
                 "position": "left"
             },
             {
-                "url": "/PicoW_S3_doc/en/",
-                "label": "PicoW-S3",
-                "position": "left"
+                "id": "Pico series",
+                "label": "Pico",
+                "position": "left",
+                "items": [
+                    {
+                        "id": "Pico2040",
+                        "url": "/Pico_RP2040_doc/en/",
+                        "label": "Pico-RP2040"
+                    },
+                    {
+                        "id": "PicoWS3",
+                        "url": "/PicoW_S3_doc/en/",
+                        "label": "PicoW-S3"
+                    }
+                ]
             },
             {
-                "url": "/Q-Car/en/",
-                "label": "Q-Car",
-                "position": "left"
-            },
-            {
-                "url": "/Triode-Car/en/",
-                "label": "Triode-Car",
-                "position": "left"
+                "id": "Acces",
+                "label": "Accessories",
+                "position": "left",
+                "items": [
+                    {
+                        "id": "QCar",
+                        "url": "/Q-Car/en/",
+                        "label": "Q-Car"
+                    },
+                    {
+                        "id": "TriodeCar",
+                        "url": "/Triode-Car/en/",
+                        "label": "Triode-Car"
+                    }
+                ]
             },
             {
                 "url": "/About/en/",
-                "label": "About Us",
+                "label": "About us",
                 "position": "left"
             },
             {
@@ -66,86 +90,88 @@
                 "position": "right",
                 "type": "language"
             }
-    ]
-},
-"footer":{
-    "top":[
-        {
-            "label": "Links",
-            "items": [
-                {
-                    "label": "Banana Pi",
-                    "url": "http://www.banana-pi.org",
-                    "target": "_blank"
-                },
-                {
-                    "label": "Wiki",
-                    "url": "http://wiki.banana-pi.org/Main_Page",
-                    "target": "_blank"
-                },
-                {
-                    "label": "Webduino",
-                    "url": "https://webduino.io/en/",
-                    "target": "_blank"
-                },
-                {
-                    "label": "Aliexpress",
-                    "url": "https://www.aliexpress.com/store/302756",
-                    "target": "_blank"
-                }
-            ]
-        },
-        {
-            "label": "Source code",
-            "items": [
-                {
-                    "label": "website source files",
-                    "url": "https://github.com/BPI-STEAM/BPI-Doc",
-                    "target": "_blank"
-                },
-                {
-                    "label": "BananaPi source files",
-                    "url": "https://github.com/BPI-SINOVOIP",
-                    "target": "_blank"
-                }
-            ]
-        },
-        {
-            "label": "Contact Us",
-            "items": [{
-                "label": "Phone: +86 0755-26475332"
+        ]
+    },
+    "footer": {
+        "top":[
+            {
+                "label": "Link",
+                "items": [
+                    {
+                        "label": "Banana Pi",
+                        "url": "https://www.banana-pi.org.cn",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "Wiki",
+                        "url": "http://wiki.banana-pi.org/Main_Page",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "Webduino",
+                        "url": "https://webduino.com.cn/site/en_cn/index.html",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "Taobao",
+                        "url": "https://shop108780008.taobao.com/",
+                        "target": "_blank"
+                    }
+                ]
             },
             {
-                "label": "Business Support: sales@sinovoip.com.cn (Sales Department)"
+                "label": "Source Code",
+                "items": [
+                    {
+                        "label": "Source file of this website",
+                        "url": "https://github.com/BPI-STEAM/BPI-Doc",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "BananaPi source file",
+                        "url": "https://github.com/BPI-SINOVOIP",
+                        "target": "_blank"
+                    }
+                ]
             },
             {
-                "label": "Technical Support: support@sinovoip.com.cn (Technical Department)"
-            },
-            {
-                "label": "Address: 7th Floor, Rongyi Building, Songshan Lake High-tech Industrial Development Zone, Guangdong Province, China"
+                "label": "Contact us",
+                "items": [
+                    {
+                        "label": "Tel: +86 0755-26475332"
+                    },
+                    {
+                        "label": "Business Support: sales@banana-pi.com (Sales Department)"
+                    },
+                    {
+                        "label": "Technical Support: support@banana-pi.com (Technical Department)"
+                    },
+                    {
+                        "label": "Address: 7th Floor, Rongyi Building, Songshan Lake High-tech Industrial Development Zone, Guangdong Province"
+                    }
+                ]
             }
-            ]
-        }
-    ],
-    "bottom": [
-        {
-            "label": "Copyright © 2022 Banana Pi",
-            "url": "https://bpi-steam.com/",
-            "target": "_blank"
-        }
-    ]
-},
-"plugins": {
-    "teedoc-plugin-search":{
+        ],
+        "bottom": [
+            {
+                "label": "Copyright © 2022 Banana Pi",
+                "url": "https://bpi-steam.com/",
+                "target": "_blank"
+            }
+        ]
+    },
+    "plugins": {
+        "teedoc-plugin-search": {
         "config": {
             "search_hint": "Search",
-            "input_hint": "Input keyword. Using Space to separate multiple keywords",
-            "loading_hint": "Loading, please wait",
-            "download_err_hint": "Fail download, Please retry or check network",
-            "other_docs_result_hint": "Results form other doc",
-            "curr_doc_result_hint": "Result form current doc"
+            "input_hint": "Enter keywords, separated by spaces",
+            "loading_hint": "Loading, please wait...",
+            "download_err_hint": "Failed to download the file, please refresh and try again or check the network",
+            "other_docs_result_hint": "Results from other docs",
+            "curr_doc_result_hint": "Current document search result"
         }
-    }    
+    }
+   
 },
 "show_source": "Edit this page"
 }

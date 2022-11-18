@@ -19,14 +19,19 @@
                 "position": "left",
                 "items": [
                     {
-                        "id": "Doc",
+                        "id": "BitDoc",
                         "url": "/WebBit_doc/zh_tw/",
-                        "label": "使用手冊"
+                        "label": "WebBit使用手冊"
                     },
                     {
-                        "id": "Dev",
+                        "id": "BitDev",
                         "url": "/WebBit_dev/zh_tw/",
-                        "label": "開發手冊"
+                        "label": "WebBit開發手冊"
+                    },
+                    {
+                        "id": "BitV2",
+                        "url": "/WebBit_dev/zh_tw/",
+                        "label": "WebBit V2使用手冊"
                     }
                 ]
             },
@@ -41,19 +46,38 @@
                 "position": "left"
             },
             {
-                "url": "/PicoW_S3_doc/zh_tw/",
-                "label": "PicoW-S3",
-                "position": "left"
+                "id": "Pico系列",
+                "label": "Pico",
+                "position": "left",
+                "items": [
+                    {
+                        "id": "Pico2040",
+                        "url": "/Pico_RP2040_doc/zh_tw/",
+                        "label": "Pico-RP2040"
+                    },
+                    {
+                        "id": "PicoWS3",
+                        "url": "/PicoW_S3_doc/zh_tw/",
+                        "label": "PicoW-S3"
+                    }
+                ]
             },
             {
-                "url": "/Q-Car/zh_tw/",
-                "label": "Q-Car",
-                "position": "left"
-            },
-            {
-                "url": "/Triode-Car/zh_tw/",
-                "label": "Triode-Car",
-                "position": "left"
+                "id": "Acces",
+                "label": "配件",
+                "position": "left",
+                "items": [
+                    {
+                        "id": "QCar",
+                        "url": "/Q-Car/zh_tw/",
+                        "label": "Q-Car"
+                    },
+                    {
+                        "id": "TriodeCar",
+                        "url": "/Triode-Car/zh_tw/",
+                        "label": "Triode-Car"
+                    }
+                ]
             },
             {
                 "url": "/About/zh_tw/",
@@ -117,10 +141,10 @@
                         "label": "電話: +86 0755-26475332"
                     },
                     {
-                        "label": "商業支持: sales@sinovoip.com.cn (銷售部）"
+                        "label": "商業支持: sales@banana-pi.com (銷售部）"
                     },
                     {
-                        "label": "技術支持: support@sinovoip.com.cn (技術部）"
+                        "label": "技術支持: support@banana-pi.com (技術部）"
                     },
                     {
                         "label": "地址: 廣東省松山湖高新技術產業開發區融易大廈 7 樓"
