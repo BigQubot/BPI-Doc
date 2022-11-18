@@ -1,0 +1,23 @@
+items:
+-   label: 1. Unpacking PicoW-S3 development board
+    items:
+    -   label: Introduction of PicoW-S3
+        file: Unboxing/Introduction.md
+    -   label: get started quickly (for the first time, please see here)
+        file: Unboxing/Gettingstart.md
+-   label: 2. Code with CircuitPython
+    items:
+    -   label: Supported by CircuitPython
+        file: CircuitPython/supported_by_circuitpython.md
+    -   label: CircuitPython environment construction
+        file: CircuitPython/Environment.md
+    -   label: CircuitPython firmware download and burning
+        file: CircuitPython/Firmware.md
+    -   label: basic function usage
+        file: CircuitPython/Basic.md
+-   label: 3. Code with Arduino
+    items:
+    -   label: Arduino environment construction
+        file: Arduino/Environment.md
+    -   label: basic function usage
+        file: Arduino/Basic.md
