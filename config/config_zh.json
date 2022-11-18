@@ -19,14 +19,25 @@
                 "position": "left",
                 "items": [
                     {
-                        "id": "Doc",
-                        "url": "/WebBit_doc/zh/",
-                        "label": "使用手册"
+                        "id": "Bitv1",
+                        "label": "WebBit",
+                        "items": [
+                            {
+                                "id": "Doc",
+                                "url": "/WebBit_doc/zh/",
+                                "label": "使用手册"
+                            },
+                            {
+                                "id": "Dev",
+                                "url": "/WebBit_dev/zh/",
+                                "label": "开发手册"
+                            }
+                        ]
                     },
                     {
-                        "id": "Dev",
-                        "url": "/WebBit_dev/zh/",
-                        "label": "开发手册"
+                        "id": "Bitv2",
+                        "url": "/WebBit_V2_doc/zh/",
+                        "label": "WebBit V2"
                     }
                 ]
             },
@@ -68,8 +79,8 @@
             }
         ]
     },
-    "footer":{
-        "top":[
+    "footer": {
+        "top": [
             {
                 "label": "链接",
                 "items": [
@@ -137,7 +148,7 @@
         ]
     },
     "plugins": {
-        "teedoc-plugin-search":{
+        "teedoc-plugin-search": {
             "config": {
                 "search_hint": "搜索",
                 "input_hint": "输入关键词，多关键词空格隔开",
@@ -147,7 +158,6 @@
                 "curr_doc_result_hint": "当前文档搜索结果"
             }
         }
-        
     },
     "show_source": "编辑本页"
 }
